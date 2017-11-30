@@ -1,0 +1,18 @@
+﻿' ===================================================================
+' Any custom redirects go here.
+' Format: {oldUrl} | {newUrl}
+' ===================================================================
+~/studios/bijou-films|~/studios/4310/bijou-gay-classics
+~/studios/stunner-media|~/studios/20563/blake-mason
+~/studios/colt-studio|~/studios/3342/colt-studio-group
+~/studios/kink-men|~/studios/22307/kinkmen
+~/themes/bareback-gay-porn-movies|~/theme/bareback
+~/themes/twink18-gay-porn-movies|~/theme/twink
+~/themes/orgygroup-gay-porn-movies|~/theme/orgies
+~/themes/sport-gay-porn-movies|~/theme/jocks
+~/themes/suit-and-tie-gay-porn-movies|~/theme/white-collar
+~/welcome_nonmembers.aspx|~/welcome
+~/studios/stag-homme|~/studios/22418/stag-homme-studios
+~/gayvn2017|http://join.nakedsword.com/track/MTAzNDE4LjM3LjEuNDYuNDAuMC4wLjAuMA
+~/lvhustla|http://join.nakedsword.com/track/MTAzNDE4LjM3LjEuNDYuNDEuMC4wLjAuMA
+~/fleshjack|http://join.nakedsword.com/track/MTAyNzM5LjIyLjEuMTYuMi4wLjAuMC4w/join

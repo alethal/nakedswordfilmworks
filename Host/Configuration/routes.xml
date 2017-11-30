@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+
+
+<!-- comp site overrides -->
+
+
+
+
+
+<!-- static movie routes -->
+
+
+<route name="phoenixrisingoverrideMember" url="movies/206845/phoenix-rising" virtualPath="~/content/static_movie_folder/phoenix-rising/phoenix-rising-member.aspx"/>
+<route name="phoenixrisingoverrideNONmember" url="phoenix-rising" virtualPath="~/content/static_movie_folder/phoenix-rising/phoenix-rising-member.aspx"/>
+<!--<route name="phoenixrisingoverrideNONmember" url="phoenix-rising" virtualPath="~/content/static_movie_folder/phoenix-rising/phoenix-rising-nonmember.aspx"/>-->
+
+
+	 
+<!-- basic routes -->	 
+	 
+  <route name="Stars.Home" url="stars" virtualPath="~/content/stars-featured.aspx" />
+  <route name="JustAdded.Home" url="just-added" virtualPath="~/content/just-added.aspx" />
+  <route name="JustAdded.Scenes" url="just-added-scenes" virtualPath="~/content/just-added-scenes.aspx" />
+  <route name="JustAdded.Movies" url="just-added-movies" virtualPath="~/content/just-added-movies.aspx" />
+  <route name="Trending.Home" url="trending" virtualPath="~/content/mostwatched.aspx" />
+  <route name="MostWatched.HomeOLD" url="mostwatched" virtualPath="~/content/mostwatched.aspx" />
+  <route name="MostWatched.Home" url="most-watched" virtualPath="~/content/mostwatched.aspx" />
+  <route name="MostWatched.Scenes" url="most-watched-scenes" virtualPath="~/content/mostwatched-scenes.aspx" />
+  <route name="MostWatched.Movies" url="most-watched-movies" virtualPath="~/content/mostwatched-movies.aspx" />
+   <route name="Help" url="help" virtualPath="~/content/help.aspx" />
+   <route name="AllTitles" url="alltitles" virtualPath="~/content/movies-index.aspx" />
+    <route name="Spotlight" url="spotlight" virtualPath="~/content/spotlight.aspx" />
+    <route name="NSOriginals" url="nsoriginals" virtualPath="~/content/nsoriginals.aspx" />
+	  <route name="NSOriginals.Movies" url="nsoriginals-movies" virtualPath="~/content/nsoriginals-movies.aspx" />
+  <route name="NSOriginals.Scenes" url="nsoriginals-scenes" virtualPath="~/content/nsoriginals-scenes.aspx" />
+   <route name="TrentonExclusive" url="trentonducatiexclusive" virtualPath="~/content/trentonducatiexclusive.aspx" />
+   <route name="TrentonExclusiveMore" url="trentonducatiexclusivemore" virtualPath="~/content/trentonducatiexclusivemore.aspx" />
+   <route name="TrentonExclusiveAllMovies" url="trentonducatiallmovies" virtualPath="~/content/trentonducatiallmovies.aspx" />
+    <route name="TermsOfService" url="tos" virtualPath="~/content/tos.aspx" />
+    <route name="Privacy" url="privacy" virtualPath="~/content/privacy.aspx" />
+     <route name="Welcome" url="welcome" virtualPath="~/content/welcome.aspx" />
+     <route name="Rejoin" url="rejoin" virtualPath="~/content/rejoin.aspx" />
+  <route name="Compliance" url="compliance" virtualPath="~/content/compliance/compliance.aspx" />
+	 
+	 
+	 <!-- static pages -->
+	 
+	  <route name="StaticScaredStiffTrailer" url="scaredstiff" virtualPath="~/content/static_movie_folder/scaredstifftrailer.aspx" />
+	  
+	  <!-- film fest routes -->
+	  
+	  <route name="DariusFFilmFest" url="dariusferdynandfilmfest" virtualPath="~/content/filmfest_folder/darius_ferdynand.aspx" />
+	  <route name="ChrisHarderFilmFest" url="chrisharderfilmfest" virtualPath="~/content/filmfest_folder/chris_harder.aspx" />
+	   <route name="Top10Movies2016" url="Top10Movies2016" virtualPath="~/content/filmfest_folder/top10movies2016.aspx" />
+	   <route name="Top10MoviesNSOriginal2016" url="Top10Scenes2016" virtualPath="~/content/filmfest_folder/top10nsoriginalscenes2016.aspx" />
+	   <route name="Top10BrentCorriganFest" url="brentcorrigantop10" virtualPath="~/content/filmfest_folder/brentcorrigantop10.aspx" />
+	   <route name="Top10Gingers" url="top10gingers" virtualPath="~/content/filmfest_folder/gingerstop10.aspx" />
+	   <route name="Grabby2017Playlist" url="grabbys2017" virtualPath="~/content/filmfest_folder/grabby2017.aspx" />
+	   
+	   
+	   
+	   
+	   
+	 
+	 <!-- special promo routes -->
+	 
+     <route name="GetFifiPage" url="getfifi" virtualPath="~/content/special_promo/fifi_form.aspx" />
+	 <route name="SpecialOffers" url="specialoffers" virtualPath="~/content/specialoffers_folder/specialoffers.aspx" />
+  <route name="GayVN2017" url="gayvn2017" virtualPath="~/content/special_promo/gayvn2017.aspx" />
+  <route name="LVHustla" url="lvhustla" virtualPath="~/content/special_promo/lvhustla.aspx" />
+   <route name="fleshjack" url="fleshjack" virtualPath="~/content/special_promo/fleshjack/fleshjack.aspx" />
+   <route name="adam4adamforward" url="adam4adam" virtualPath="~/content/special_promo/adam4adam/adam4adam.aspx" />
+   <route name="manhuntforward" url="manhunt" virtualPath="~/content/special_promo/manhunt/manhunt.aspx" />
+   <route name="ozultrafan" url="ozultrafan" virtualPath="~/content/special_promo/ozultrafan/ozultrafan.aspx" />
+  <route name="promoaug17" url="promoaug17" virtualPath="~/content/special_promo/august2017/redirect.aspx" />
+  
+ 
+	
+	
+	<!-- newsletter routes -->
+	 
+	 <route name="newslettersubscribed" url="newslettersubscribed" virtualPath="~/content/newsletter_folder/newslettersubscribed.aspx"  />
+	<route name="newsletterconfirm" url="newsletterconfirm" virtualPath="~/content/newsletter_folder/newsletterconfirm.aspx"  />
+	<route name="newslettersignup" url="newslettersignup" virtualPath="~/content/newsletter_folder/newsletterform.aspx"  />
+	<route name="newsletterunsub" url="newsletterunsubscribe" virtualPath="~/content/newsletter_folder/newsletter_unsubscribe.aspx"  />
+	
+	
+<!-- Contest Routes	-->			
+	
+	<route name="famegamecontest" url="famegamecontest" virtualPath="~/content/contest_folder/famegame/famegamecontest.aspx" />	
+	<route name="famegamecontestconfirm" url="famegamecontestconfirm" virtualPath="~/content/contest_folder/famegame/famegamecontestconfirm.aspx" />	
+	<route name="famegamecontestthankyou" url="famegamecontestthankyou" virtualPath="~/content/contest_folder/famegame/famegamecontestthankyou.aspx" />
+	
+	<route name="layovercontest" url="thelayovercontest" virtualPath="~/content/contest_folder/thelayover/thelayovercontest.aspx" />	
+	<route name="thelayovercontestconfirm" url="thelayovercontestconfirmation" virtualPath="~/content/contest_folder/thelayover/thelayovercontestconfirm.aspx" />	
+	<route name="thelayovercontestthankyou" url="thelayovercontestthankyou" virtualPath="~/content/contest_folder/thelayover/thelayovercontestthankyou.aspx" />
+	<route name="thelayovercontestterms" url="thelayovercontestterms" virtualPath="~/content/contest_folder/thelayover/thelayovercontestterms.aspx" />
+	
+</root>

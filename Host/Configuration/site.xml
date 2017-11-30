@@ -1,0 +1,40 @@
+﻿<?xml version="1.0"?>
+<settings>
+  
+  
+  <setting name="Site.Name" value="NSFilmWorks.com" />
+  <setting name="Site.Description" value="NSFilmWorks.com is the number one gay porn membership site with the most studios, the most updates, and the most watched gay porn movies online." />
+  <setting name="Site.LiveHosts" value="www.NSFilmWorks.com, NSFilmWorks.com" />
+  <setting name="Site.BuyNowLinks.Enabled" value="true" />
+
+  <setting name="API.HostKey" value="ECF60DC6-1245-4896-A7CA-6A7968A29476" />
+
+  <setting name="Google.TrackingID" value="UA-104464163-1" />
+  
+ 
+
+  <setting name="NATS.ServerUrl" value="https://join.NSFilmWorks.com" />
+  <setting name="NATS.SiteID" value="18" />
+  <setting name="NATS.AffiliateCode.DefaultAffiliateCode" value="MTA1NTcyLjQ1LjE4LjczLjAuMC4wLjAuMA" />  
+  <setting name="NATS.AffiliateCode.ScheduledCode" value="MTA1NTcyLjQ1LjE4LjczLjAuMC4wLjAuMA" />
+  <setting name="NATS.AffiliateCode.ScheduleStart" value="2017-04-12T08:01:00" />
+  <setting name="NATS.AffiliateCode.ScheduleEnd" value="2017-04-15T08:01:00" />
+      
+  
+  
+  <setting name="Site.Previews.MaxViewsForNonMembers" value="6" />
+  <setting name="Site.Previews.ContentStartPercent" value="70%" />
+  <setting name="Site.Previews.DurationSeconds" value="45" />
+
+  <setting name="Site.CacheEnabled" value="true" />
+  <setting name="Site.ShowDetailedErrorsOnDev" value="true" />
+  <setting name="Site.Diagnostics.NotifyForLongRunningProcesses" value="true" />
+  <setting name="Site.Diagnostics.LongRunningProcessThresholdMilliseconds" value="5000" />
+  
+  <setting name="Controls.Foundation.SceneSearchResults.DefaultPageSize" value="24" />
+  <setting name="Controls.Foundation.SceneSearchResults.AllowedSortFields" value="Newest, MostWatched, Duration, Title" />
+  
+  <setting name="Controls.Foundation.BannerSpotlightSlider.SpotlightSliderScriptUrl" value="~/js/spotlight_slider.js" />
+  
+  
+</settings>

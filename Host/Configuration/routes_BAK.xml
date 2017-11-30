@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+
+
+<!-- static movie routes -->
+<route name="scaredstiffoverrideMember" url="movies/206026/scared-stiff" virtualPath="~/content/static_movie_folder/scaredstiff/scaredstiffmember.aspx"/>
+<route name="scaredstiffoverrideNONmember" url="scared-stiff" virtualPath="~/content/static_movie_folder/scaredstiff/scaredstiffnonmember.aspx"/>
+
+
+<route name="phoenixrisingoverrideMember" url="movies/206845/phoenix-rising" virtualPath="~/content/static_movie_folder/phoenix-rising/phoenix-rising-member.aspx"/>
+<route name="phoenixrisingoverrideNONmember" url="phoenix-rising" virtualPath="~/content/static_movie_folder/phoenix-rising/phoenix-rising-nonmember.aspx"/>
+
+<route name="greasersoverrideMember" url="movies/208465/greasers" virtualPath="~/content/static_movie_folder/greasers/greasers-member.aspx"/>
+<route name="greasersoverrideNONmember" url="greasers" virtualPath="~/content/static_movie_folder/greasers/greasers-nonmember.aspx"/>
+
+<route name="ultrafanoverrideMember" url="movies/209325/ultra-fan" virtualPath="~/content/static_movie_folder/ultrafan/ultrafan-member.aspx"/>
+
+<route name="ultrafanverrideNONmember" url="ultra-fan" virtualPath="~/content/static_movie_folder/ultrafan/ultrafan-nonmember.aspx"/>
+
+<route name="seedmoneyoverrideMember" url="movies/209347/seed-money" virtualPath="~/content/static_movie_folder/seedmoney/seedmoney-member.aspx"/>
+
+<route name="seedmoneyverrideNONmember" url="seed-money" virtualPath="~/content/static_movie_folder/seedmoney/seedmoney-nonmember.aspx"/>
+	 
+
+	 
+	 
+  <route name="Stars.Home" url="stars" virtualPath="~/content/stars-featured.aspx" />
+  <route name="JustAdded.Home" url="just-added" virtualPath="~/content/just-added.aspx" />
+  <route name="Scenes.JustAdded" url="just-added-scenes" virtualPath="~/content/just-added-scenes.aspx" />
+  <route name="Movies.JustAdded" url="just-added-movies" virtualPath="~/content/just-added-movies.aspx" />
+  <route name="Scenes.Trending" url="trending" virtualPath="~/content/scenes-mostwatched.aspx" />
+  <route name="Scenes.MostWatched" url="mostwatched" virtualPath="~/content/scenes-mostwatched.aspx" />
+   <route name="Help" url="help" virtualPath="~/content/help.aspx" />
+   <route name="AllTitles" url="alltitles" virtualPath="~/content/movies-index.aspx" />
+    <route name="Spotlight" url="spotlight" virtualPath="~/content/spotlight.aspx" />
+    <route name="NSOriginals" url="nsoriginals" virtualPath="~/content/nsoriginals.aspx" />
+	  <route name="NSOriginals.Movies" url="nsoriginals-movies" virtualPath="~/content/nsoriginals-movies.aspx" />
+  <route name="NSOriginals.Scenes" url="nsoriginals-scenes" virtualPath="~/content/nsoriginals-scenes.aspx" />
+    <route name="TermsOfService" url="tos" virtualPath="~/content/tos.aspx" />
+    <route name="Privacy" url="privacy" virtualPath="~/content/privacy.aspx" />
+     <route name="Welcome" url="welcome" virtualPath="~/content/welcome.aspx" />
+     <route name="Rejoin" url="rejoin" virtualPath="~/content/rejoin.aspx" />
+  <route name="Compliance" url="compliance" virtualPath="~/content/compliance/compliance.aspx" />
+	 
+	 
+	 <!-- static pages -->
+	 
+	  <route name="StaticScaredStiffTrailer" url="scaredstiff" virtualPath="~/content/static_movie_folder/scaredstifftrailer.aspx" />
+	  
+	  <!-- film fest routes -->
+	  
+	  <route name="DariusFFilmFest" url="dariusferdynandfilmfest" virtualPath="~/content/filmfest_folder/darius_ferdynand.aspx" />
+	  <route name="ChrisHarderFilmFest" url="chrisharderfilmfest" virtualPath="~/content/filmfest_folder/chris_harder.aspx" />
+	   <route name="Top10Movies2016" url="Top10Movies2016" virtualPath="~/content/filmfest_folder/top10movies2016.aspx" />
+	   <route name="Top10MoviesNSOriginal2016" url="Top10Scenes2016" virtualPath="~/content/filmfest_folder/top10nsoriginalscenes2016.aspx" />
+	   <route name="Top10BrentCorriganFest" url="brentcorrigantop10" virtualPath="~/content/filmfest_folder/brentcorrigantop10.aspx" />
+	   
+	   
+	 
+	 <!-- special promo routes -->
+	 
+     <route name="GetFifiPage" url="getfifi" virtualPath="~/content/special_promo/fifi_form.aspx" />
+	 <route name="SpecialOffers" url="specialoffers" virtualPath="~/content/specialoffers_folder/specialoffers.aspx" />
+  <route name="GayVN2017" url="gayvn2017" virtualPath="~/content/special_promo/gayvn2017.aspx" />
+  <route name="LVHustla" url="lvhustla" virtualPath="~/content/special_promo/lvhustla.aspx" />
+   <route name="fleshjack" url="fleshjack" virtualPath="~/content/special_promo/fleshjack/fleshjack.aspx" />
+   <route name="ozultrafan" url="ozultrafan" virtualPath="~/content/special_promo/ozultrafan/ozultrafan.aspx" />
+  
+ 
+	
+	
+	<!-- newsletter routes -->
+	 
+	 <route name="newslettersubscribed" url="newslettersubscribed" virtualPath="~/content/newsletter_folder/newslettersubscribed.aspx"  />
+	<route name="newsletterconfirm" url="newsletterconfirm" virtualPath="~/content/newsletter_folder/newsletterconfirm.aspx"  />
+	<route name="newslettersignup" url="newslettersignup" virtualPath="~/content/newsletter_folder/newsletterform.aspx"  />
+	<route name="newsletterunsub" url="newsletterunsubscribe" virtualPath="~/content/secure/newsletter_unsubscribe.aspx"  />
+	
+	
+	
+	
+	
+	
+</root>

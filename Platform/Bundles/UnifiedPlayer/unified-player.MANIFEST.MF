@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.9.6
+Created-By: 1.8.0_25-b17 (Oracle Corporation)
+Implementation-Title: unified-player
+Implementation-Version: ccc324baaa2f
+Implementation-Vendor: AEBN
+Built-Date: 2016-09-01 11:22:48
+

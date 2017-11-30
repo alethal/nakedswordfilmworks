@@ -1,0 +1,1 @@
+!function($){var t=$("body");$(document).foundation(),t.on("click.bb.panel",function(t){var n=$(".simple-panel.is-active");!n.length||$.contains(n[0],t.target)||n.is(t.target)||t.target.getAttribute("data-toggle")===n[0].id||n.foundation("toggle")})}(jQuery);

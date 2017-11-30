@@ -1,0 +1,1172 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,700');
+
+body {
+ font-family: 'Oswald', sans-serif !important; color:#000; font-weight: 100 !important; background-color: #000;
+    background-image: url(https://spotlight.nakedcdn.com/str8upgaypornmovies/img/bg/background.jpg);
+}
+
+
+#background_cycler{padding:0;margin:100px 0 0 0;width:100%;position:absolute;top:0;left:0;z-index:-1;}
+#background_cycler img{position:absolute;left:0;top:0;width:100%;z-index:1;}
+#background_cycler img.active{z-index:3;}
+
+
+input {
+    width: 94%;
+    display: block;
+    border: 1px solid #999;
+    background-color: #fff;
+    padding: 10px;
+    margin: 0px 0 10px 0;
+    color: #000;
+    font-size: 14px;
+	display:block;
+-webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3);
+box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+.clear { clear:both; }	
+
+.memberinfo { color: #fff; }
+
+.join_error { color:#fff; background-color:#ffcc00; padding: 5px; font-weight: 800;}
+
+.form_input { color:#fff; }
+
+
+
+
+	
+	
+		
+		
+.join .button{
+padding: 0px;
+margin: 0px;
+background-image: url(https://www.nakedsword.com/checkout_rev/nats_images/startwatching_btn.png); background-repeat: no-repeat; background-color: transparent;
+
+}
+.priceoptions:hover { color:#fff; }
+
+
+
+.priceoptions { }
+
+/*
+height: 20px;
+    width: 20px;
+    margin: 25px 15px 0 50px;
+    float: left;
+    overflow: hidden;
+    background: url('https://nakedsword.com/nakedsword_now/img/checkbox_2.png') 0 -66px no-repeat;
+    background-size: 20px 85px;
+    position: relative;
+	*/
+
+.button {
+/*background: url('https://nakedsword.com/nakedsword_now/img/checkboxspectre.png') 0 -66px no-repeat;
+    background-size: 20px 85px;*/
+	cursor: pointer;
+	/*border-radius: 5px;
+	-moz-border-radius: 5px;*/
+	border: 1px;
+	 border-bottom: 1px solid #000;
+	background-color:#784e0b;
+}
+
+.pressed-button{
+	color: #000;
+	padding: 0px 0px 0 0px;
+	text-align: left;
+	 /*background: url('https://nakedsword.com/nakedsword_now/img/checkboxspectre.png') 0 66px #686868 no-repeat;
+    background-size: 20px 85px;*/
+	background-color:#f7e29d;
+    position: relative;
+	cursor: pointer;
+	/*border-radius: 5px;
+	-moz-border-radius: 5px;*/
+ 
+}
+
+
+.checkbox-wrapper {
+    height: 20px;
+    width: 20px;
+    margin: 10px 15px 0 -15px;
+    float: left;
+    overflow: hidden;
+    background: url('https://nakedsword.com/nakedsword_now/img/checkboxspectre.png') 0 -66px no-repeat;
+    background-size: 20px 85px;
+    position: relative;
+}
+
+label.selected:hover .checkbox-wrapper, label.selected .checkbox-wrapper {
+    background-position: 0 0;
+}
+
+.pressed-button .checkbox-wrapper {
+    height: 20px;
+    width: 20px;
+    margin: 10px 15px 0 -15px;
+    float: left;
+    overflow: hidden;
+    background: url('https://nakedsword.com/nakedsword_now/img/checkboxspectre.png') 0 0px no-repeat;
+    background-size: 20px 85px;
+    position: relative;
+}
+
+
+.offer-save-before-tag { color:#000; font-weight: 400 !important; font-style: italic;}
+.offer-save-before-tag:hover{ color:#000 !important; }
+.pressed-button .offer-save-before-tag:hover{ color:#000 !important; }
+
+
+.join_error{
+	color:#cc0000;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto; 		
+	padding: 0px;
+}
+
+
+
+/* new buttons */
+
+.option-padding { margin: 0 0 10px 10px; }
+
+/* not pressed */
+	
+.opt-time-title { font-size: 20px; line-height: 18px; margin: 5px 0 0 0; padding:0px 0 0px 0px; float: left;}
+
+.opt-savings { font-size: 12px; color:#ccc; float: left; clear: both; margin: 5px 0 0 5px;}
+
+.opt-rate-main { font-size: 30px !important; color:#fff; font-weight: bold;}
+
+.opt-rate-sub  { font-size: 12px;  margin: 5px 0 0 0; color:#ff6600; }
+
+
+.opt-time-division { font-size: 10px; color:#f50760; }
+
+/* pressed */
+
+.pressed-button .opt-time-title { font-size: 20px; line-height: 18px; margin: 5px 0 0 0; padding:0px 0 0px 0px; float: left;}
+
+.pressed-button .opt-savings { font-size: 12px; color:#fff; float: left; clear: both; margin: 5px 0 0 5px;}
+
+.pressed-button .opt-rate-main { font-size: 30px !important; color:#fff; font-weight: bold;}
+
+.pressed-button .opt-rate-sub  { font-size: 12px; color:#ff6600; }
+
+.pressed-button .opt-time-division { font-size: 10px; color:#f50760; }
+
+
+/* originalcss */
+
+
+fieldset {
+  border: 0px solid #c0c0c0;
+  margin: 0 0px;
+  padding: 0px;
+}
+
+.clearfix {
+    min-height: 1px;
+}
+
+a {
+    color: #FFF;
+}
+
+
+
+header {
+    height: 100px;
+   
+    
+    position: relative;
+    z-index: 100;
+
+
+background: #000; /* Old browsers */
+/*
+background: -moz-linear-gradient(left,  #023479 0%, #8993a2 100%);
+
+background: -webkit-linear-gradient(left,  #023479 0%,#8993a2 100%); 
+
+background: linear-gradient(to right,  #023479 0%,#8993a2 100%);
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#023479', endColorstr='#8993a2',GradientType=1 ); 
+*/
+
+
+
+}
+
+.logo {
+   position: absolute;
+	padding: 10px;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+   text-align: left;
+
+    width: 600px;
+}
+
+#userInputsArea-heading, #optionsArea-heading {
+	text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+	padding: 10px 0 10px 0;
+}
+#userInputsArea-heading span, #optionsArea-heading span {
+    color: #fff;
+	/* color: #686868; */
+}
+
+#optionsArea-heading {
+    margin: 5px 0 0 0px;
+}
+
+.bg {
+    width: 100%;
+    height: 920px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: transparent;
+}
+
+#onlineCheck,
+#paymentTitle {
+    background: #686868;
+    text-align: center;
+    font-size: 35px;
+    height: 0;
+    overflow: hidden;
+    font-style: italic;
+    width: 100%;
+    line-height: 54px;
+    position:absolute;
+    top: -54px;
+}
+
+#onlineCheck span,
+#paymentTitle span {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+#paymentTitle span {
+    background: url("payment-logos.png") no-repeat 0 -665px;
+    display: inline-block;
+    height: 27px;
+    width: 208px;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+#paymentTitle.payment-check span {
+    background-position: 0 -265px;
+}
+
+#paymentTitle.payment-dd span {
+    background-position: 0 -190px;
+    height: 28px;
+}
+
+#paymentTitle.payment-lastschrift span {
+    background: none;
+    color: #fff;
+    font-style: normal;
+    text-transform: none;
+    width: auto;
+    height: auto;
+    text-indent: 0;
+    text-transform: capitalize;
+}
+
+#paymentTitle.payment-pp span {
+    background-position: 0 -226px;
+    height: 39px;
+    margin-top: 10px;
+    width: 144px;
+}
+
+#paymentTitle.payment-opo span {
+    background-position: 0 -302px;
+    height: 28px;
+    width: 385px;
+}
+
+.bg-block {
+    position: absolute;
+    width: 100%;
+    height: 920px;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    opacity: 0;
+}
+
+.content-wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.plans-title, #cascade-title {
+    position: relative;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.login {
+    float: right;
+    color: #fff;
+    margin: 26px 60px 0 0;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.login a {
+    font-size: 18px;
+    color: #686868;
+    margin-left: 20px;
+    text-decoration: none;
+    white-space:nowrap;
+    display: inline-block;
+}
+
+.login a:hover {
+    text-decoration: underline;
+}
+
+.user-inputs-labels span[tr-id="tt-username"],
+.user-inputs-labels span[tr-id="tt-pwd"],
+.user-inputs-labels span[tr-id="tt-email"] {
+    display: none;
+}
+
+.user-inputs-labels {
+    display: block;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+.step-1 {
+    width: 100%;
+    padding: 0px 35px 0 35px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.join-input {
+    border: none;
+    height: 40px;
+    background: #fff;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 0 0 15px;
+    margin: 15px 0 0 0;
+    font-size: 16px;
+    line-height: 40px;
+    color: #000;
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
+.join-input:focus, .join-input.filled {
+    color: #000
+}
+
+.error {
+    clear: both;
+    color: #fff;
+    display: block;
+    font-size: 11px;
+    height: auto;
+    min-height: 15px;
+    line-height: 14px;
+    background: #ff4800;
+    padding: 0 7px 0 7px;
+    margin: 0 0 -10px 0;
+    overflow-x: hidden;
+}
+
+.policy {
+    display: none;
+}
+
+#billers-plans {
+    margin: 0 auto;
+    padding: 7px 0 2px;
+    width: 100%;
+}
+
+.biller-pricepoints li:first-child label {
+    border-top: 1px solid #000;
+}
+
+.biller-pricepoints label {
+    border-bottom: 1px solid #000;
+}
+
+.biller-pricepoints label.selected {
+    color: #FFF;
+    background: #686868;
+}
+
+.biller-pricepoints label:hover {
+    color: #fff;
+}
+
+.biller-pricepoints label:hover .input , .biller-pricepoints li .selected input {
+    border-right: 1px solid #053e61;
+}
+
+.biller-pricepoints li {
+    display: block;
+    width: 100%;
+}
+
+.biller-pricepoints li[data-days~="1"], .biller-pricepoints li[data-days~="2"] {
+    overflow: hidden;
+}
+
+.biller-pricepoints li label {
+
+    display: block;
+    cursor: pointer;
+    height: 70px;
+    color: #ababaa;
+}
+
+#offer-save-value365:after {
+    content: "*";
+}
+
+#offer-save-value90:after {
+    content: "**";
+}
+
+
+.biller-pricepoints li input {
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    left: 100px;
+    margin: 0 -100px 0 100px;
+    opacity: 0;
+}
+
+#standard-prices div[data-pp-info~="access"],
+#standard-prices .hidden {
+    font-size: 0;
+    visibility: hidden;
+}
+
+.membership-txt {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 300;
+    height: 26px;
+    line-height: 18px;
+    margin: 5px 0 0 0;
+}
+
+.price {
+    display: block;
+    float: right;
+    font-weight: 800;
+    height: 46px;
+    line-height: 42px;
+    margin: -5px 20px 0 0;
+}
+
+.price-init, .price-currency, sup {
+    font-size: 50px;
+    float: left;
+}
+
+.price-currency {
+	margin: -20px 0 0 0;
+    font-size: 22px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.price span, .prive sup {
+    float: left;
+}
+
+sup {
+    font-size: 18px;
+    height: 14px;
+    line-height: 14px;
+	margin: -10px 0 0 0 !important;
+}
+
+.price-period {
+    font-size: 9px;
+    height: 10px;
+    line-height: 10px;
+    float: right;
+    text-align: right;
+    width: 40px;
+	  margin: -10px 0 0 -12px;
+    /*margin: 35px 0 0 -24px;*/
+    text-transform:  capitalize;
+}
+
+
+.selected .billed-in-txt {
+    color: #000;
+    display:inline-block;
+}
+
+.billed-in-txt {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.billed-in-txt span.price-billed {
+    display: none;
+}
+
+div[data-pp-info~="save"] {
+    display: inline-block;
+    font-size: 11px;
+}
+
+.selected div[data-pp-info~="save"] {
+    color: #000;
+}
+
+div[data-pp-info~="save"] {
+
+}
+
+li[data-days~="1095"] div[data-pp-info~="save"] {
+    display: none;
+}
+
+.offer-save-after-tag {
+    display:none;
+}
+
+/* Step 2 end */
+
+.submit_button_holder {
+    text-align: center;
+    padding: 0 25px 0 25px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.join-button{
+    border: 1px solid #fff;
+    box-shadow: 1px 1px 2px #333;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 1.5em;
+    line-height: 50px;
+    height: 75px;
+    margin: 35px 0;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    -webkit-appearance: none;
+    border-radius: 0;
+    background: -webkit-linear-gradient(#f7e29d, #784e0b);
+
+
+
+
+}
+
+.join-button:hover {
+ background: -webkit-linear-gradient(#784e0b, #f7e29d);
+}
+
+#cascadeArea {
+    padding: 16px 0 0;
+}
+
+#cascadeArea label {
+    text-align:left;
+    margin:0;
+    padding: 0 0 0 10px;
+}
+
+.plans-title, #cascade-title {
+    color: #FFF;
+}
+
+
+
+.form-wrapper {
+    margin: 1% 0px 0 60%;
+    max-width: 425px;
+    width: 50%;
+    float: left;
+    min-width: 300px;
+    z-index: 100;
+    position: relative;
+}
+
+#join-form {
+    background-color: rgba(0, 0, 0, 1.0);
+}
+
+footer {
+    background-color:transparent;
+    margin: 0 auto;
+    color: #fff;
+    font-size: .75em;
+    clear: both;
+}
+
+footer a {
+    color: #f7e29d;
+	font-size: .75em;
+}
+
+.footer-segment-1, .footer-segment-2, .footer-segment-3, .footer-segment-4, .footer-segment-5 {
+    display:block;
+}
+
+.footer-segment-4 {
+    padding: 10px 0 0 0;
+}
+
+.please-visit {
+    padding: 10px 0 10px 0;
+}
+
+footer .logo {
+    margin: 140px 0 0 10px;
+    width: 140px;
+}
+
+footer .footer-inner {
+    width: 100%;
+    max-width: 860px;
+}
+
+.first-section, .second-section, .footer-notice, .billing-address, .price-info {
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+}
+
+.billing-address img {
+    width: 100%;
+    max-width: 386px;
+    min-width: 260px;
+}
+
+.footer-wrapper {
+    width: 100%;
+    padding: 0 0 0 100px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+footer .second-section {
+    margin: 50px 0 35px 0;
+    width: 100%;
+    max-width: 660px;
+}
+
+
+.no-username .policy {
+    margin: 10px 0 37px;
+}
+
+.hide {
+    display: none;
+}
+
+.nocc-link {
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 4px 0;
+    margin: 10px auto 0;
+    width: 352px;
+    background: #0003a4;
+}
+
+.nocc-link #yellow-text {
+    color: #686868;
+    display: block;
+}
+
+body .price-info, body .footer-notice, body .billing-address, body .logo-holder {
+    padding: 0 0 0 40px;
+}
+
+body .price-info p {
+    overflow: hidden;
+}
+
+body .footer-notice {
+    padding-top: 10px;
+}
+
+body .logo-holder{
+    padding: 20px 0 0 40px;
+}
+
+#cascadesArea-heading, #cascadeArea {
+    display: none;
+}
+
+
+
+.content-wrapper {
+    position: relative;
+}
+
+
+/******* 5th pricepoint for exitPopup ********/
+
+#billers-plans li[data-days="32"],
+.price-info p[tr-id="tt-footer-rebill-32"]
+{
+    display: none;
+}
+
+/********* Discount Label *******/
+.discount li[data-days="30"] label {
+    position: relative;
+}
+
+.discount li[data-days="30"] label:after {
+    background: url(sale_hover_sprite.png) no-repeat;
+    background-position: 0px -78px;
+    content:"";
+    width: 63px;
+    height: 64px;
+    position: absolute;
+    right: -4px;
+    top: -6px;
+}
+
+/** grey**/
+.discount li[data-days="30"] label.selected:after{
+    background-position: 0px 0px;
+}
+/** black**/
+.discount li[data-days="30"] label.selected:hover:after {
+    background-position: 0px -155px;
+}
+
+
+/********* Media Queries *******/
+@media all and (max-width:1210px) {
+    .form-wrapper {
+        float: right;
+    }
+}
+
+
+
+@media all and (max-width:1160px) {
+
+    .form-wrapper {
+        max-width: 450px;
+    }
+    .logo {
+		 position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    text-align: left;
+        width: 500px;
+        /*margin: 20px 0 -30px 50px;
+    }*/
+	
+
+    .error {
+        margin: 0 0 -15px 0;
+    }
+
+    .membership-txt {
+        font-size: 18px;
+        width: 65%;
+        margin: 10px 0 0 0;
+    }
+
+    .biller-pricepoints li label {
+        height: 55px;
+        position: relative;
+    }
+
+    .price {
+        line-height: 42px;
+        margin: 5px 10px 0 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+   .price-init, .price-currency, sup {
+        font-size: 40px;
+        float: left;
+    }
+
+    .price-currency {
+        font-size: 18px;
+        margin: 3px 0 0 0;
+    }
+
+  
+
+    .price-period {
+        font-size: 9px;
+    }
+
+    .billed-in-txt, .offer-save-before-tag, .offer-save-value-tag, div[data-pp-info~="save"] {
+        font-size: 12px;
+        font-weight: 400;
+		color:#fff;hover
+    }
+
+    .billed-in-txt {
+        margin: -5px 0 0 40px;
+        clear:both;
+        float: left;
+    }
+
+    div[data-pp-info~="save"] {
+        margin: -5px 0 0 0;
+        float: left;
+    }
+
+    #userInputsArea-heading, #optionsArea-heading, .plans-title, #cascade-title {
+        font-size: 14px;
+        font-weight: 400;
+        color: #fff;
+        text-transform: uppercase;
+    }
+
+    .join-input {
+        height: 30px;
+        padding: 0 0 0 10px;
+        font-size: 14px;
+        line-height: 30px;
+    }
+
+    .checkbox-wrapper {
+        margin: 16px 10px 0 10px;
+    }
+    .price-period {
+        margin: 28px 0 0 -24px;
+    }
+
+    .submit_button_holder {
+        padding: 0 15px 0 15px;
+    }
+
+    .join-button{
+        line-height: 50px;
+        height: 50px;
+        margin: 20px 0;
+        font-size: 30px;
+    }
+
+    #optionsArea-heading {
+        margin: 25px 0 0 0px;
+    }
+
+    .step-1 {
+        width: 100%;
+        padding: 25px 35px 0 36px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .nocc-link {
+        width: 285px;
+    }
+
+    
+    #paymentTitle.payment-opo span {
+        background-size: 348px auto;
+        background-position: 0 -261px;
+        width: 340px;
+    }
+
+
+    /********* Discount Label *******/
+    .discount li[data-days="30"] label:after {
+        background-position: 0px -56px;
+        background-size: 45px 157px;
+        width: 45px;
+        height: 46px;
+    }
+    /** grey**/
+    .discount li[data-days="30"] label.selected:after{
+        background-position: 0px 0px;
+    }
+    /** black**/
+    .discount li[data-days="30"] label.selected:hover:after {
+        background-position: 0px -110px;
+    }
+}
+
+@media all and (max-width:830px) {
+
+
+    .login {
+        margin: 26px 60px 0 0;
+    }
+
+
+    .form-wrapper {
+        margin: 2%px 40px 0 50%;
+    }
+
+    .step-1 {
+        width: 100%;
+        padding: 10px 10px 0 10px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+}
+
+@media all and (max-width:640px) and (min-width:0px) {
+    /** black**/
+    .discount li[data-days="30"] label.selected:hover:after {
+        background-position: 0px 0px;
+    }
+}
+
+
+@media all and (max-width:640px) {
+	
+	 #userInputsArea-heading, #optionsArea-heading, .plans-title, #cascade-title {
+        font-size: 24px;
+        font-weight: 400;
+        color: #fff;
+        text-transform: uppercase;
+    }
+	
+	.membership-txt {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    height: 26px;
+    line-height: 18px;
+    margin: 5px 0 0 0;
+}
+
+.billed-in-txt {
+    display: inline-block;
+    font-size: 12px !important;
+}
+
+.price {
+    margin: 5px 5px 0 0;
+}
+
+
+
+    #paymentTitle.payment-lastschrift span {
+        font-size: 30px;
+    }
+
+    #onlineCheck,
+    #paymentTitle {
+        line-height: 44px;
+        max-height: 44px;
+        position: relative;
+        top: 0;
+    }
+
+    #paymentTitle {
+        line-height: 38px;
+    }
+
+    #paymentTitle span {
+        background-size: 348px auto;
+    }
+
+    #paymentTitle.payment-check span {
+        background-position: 0 -230px;
+    }
+
+    #paymentTitle.payment-pp span {
+        background-position: 0 -197px;
+        margin-top: 8px;
+        height: 33px;
+    }
+
+    #paymentTitle.payment-dd span {
+        background-position: 0 -163px;
+        width: 171px
+    }
+
+    #paymentTitle.payment-opo span {
+        background-size: 307px auto;
+        background-position: 1px -227px;
+        width: 340px;
+    }
+
+
+    .join-button {
+        font-size: 16px;
+    }
+
+    footer {
+        background-color:transparent;
+    }
+    .price-info, .footer-notice, .billing-address {
+        padding: 0 25px 0 25px;
+    }
+
+    .price-info, .please-visit {
+        padding-bottom: 25px;
+    }
+
+    .please-visit {
+        padding-top: 25px;
+    }
+
+    .footer-segment-7 {
+        display: block;
+    }
+
+    .footer-segment-3  {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .footer-segment-4, .footer-notice div p span.footer-segment-4,
+    .footer-segment-5, .footer-notice div p span.footer-segment-5 {
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+
+    .footer-segment-4, .footer-notice div p span.footer-segment-4 {
+        padding-top: 25px;
+    }
+
+    .footer-wrapper {
+        padding: 0;
+    }
+
+    footer .second-section {
+        border: none;
+        margin: 35px 0 35px 0;
+    }
+
+    .login {
+        font-size: 10px;
+        margin: 40px 20px 0 0;
+    }
+
+    .login a {
+        font-size: 12px;
+        margin-left: 10px
+    }
+
+    .footer-inner, .second-section, header {
+        min-width: 320px;
+        width: 100%;
+    }
+
+    header {
+        height: 50px;
+    }
+
+    .logo {
+		 position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    text-align:left;
+        width: 100%;
+		text-align: center;
+        /*margin: 0px 0 -30px 15px;*/
+    }
+
+    .logo-holder {
+        margin: 10px 0 0 0;
+    }
+
+    .bg {
+        width: 100%;
+        max-height: none;
+        height: auto;
+        position: static;
+        background: #333;
+        float: left;
+        padding: 0 10px 0 10px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .form-wrapper {
+        width: 100%;
+        margin: 25px 0 30px 0;
+        position: static;
+        max-width: 550px;
+    }
+
+    .biller-pricepoints li input {
+        cursor: pointer;
+        display: block;
+        float: left;
+        height: 13px;
+        text-align: center;
+        height: 100%;
+        margin: 0 0 0 -100px;
+        font-size: 10px;
+    }
+
+    footer .logo {
+        display: none;
+    }
+
+    body .price-info, body .footer-notice, body .billing-address, body .logo-holder {
+        padding: 0 30px 0 30px;
+    }
+
+    .popup-wrapper {
+        left: 50%;
+        margin: 0 0 0 -150px;
+        top: 120px
+    }
+
+}
+@media \0screen {
+    .checkbox-wrapper {
+        background: none;
+    }
+
+    .biller-pricepoints li input {
+        margin: 0;
+        position: static;
+        border: none;
+    }
+
+}

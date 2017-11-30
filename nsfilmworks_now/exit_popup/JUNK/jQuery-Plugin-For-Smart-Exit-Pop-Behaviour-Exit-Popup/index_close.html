@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>jQuery Exit Popup Example</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/normalize.min.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/jquery-exit-popup.css">
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<!--script src="js/jquery-exit-popup.js"></script-->
+
+<style>
+	
+#exitpopup_bg {display: none; width:100%; height:100%; position:fixed; background:#000000; opacity: .8; filter:alpha(opacity=0.8); z-index:999998;}
+	
+	</style>
+
+
+<script language="javascript">
+	$(document).ready(function(){
+		
+		
+		var last_position = {};
+$(document).on('mousemove', function (event) {
+    if (typeof(last_position.x) != 'undefined') {
+        var deltaX = last_position.x - event.offsetX,
+            deltaY = last_position.y - event.offsetY;
+        if (Math.abs(deltaY) > Math.abs(deltaX) && deltaY > 0) {
+            //upward movement		
+			if(event.pageY <= 5){
+				$('#exitpopup').css('left', (window.innerWidth/2 - $('#exitpopup').width()/2));
+			    $('#exitpopup').css('top', (window.innerHeight/2 - $('#exitpopup').height()/2));
+				// Show the exit popup
+				$('#exitpopup_bg').fadeIn();
+				$('#exitpopup').fadeIn();
+			}
+        }
+    }
+    last_position = {
+        x : event.offsetX,
+        y : event.offsetY
+    };
+});
+
+/*$('#exitpopup_bg').click(function(){
+    $('#exitpopup_bg').fadeOut();
+    $('#exitpopup').slideUp();
+});*/
+		
+		
+		$('#exitpopup,#exitpopup_bg').hide();
+		$(".profile1").click(function () {
+				$("#exitpopup, #exitpopup_bg").show(300);
+		});
+	});
+	 $(document).mouseup(function (e) {
+		 var popup = $(".exitpopup");
+		 if (!$('#exitpopup').is(e.target) && !popup.is(e.target) &&   popup.has(e.target).length === 0) {
+			 hidePopup();
+		 }
+	 });
+	 function hidePopup()
+	 {
+		$("#exitpopup, #exitpopup_bg").hide(300);
+	 }
+	</script> 
+	
+	
+
+
+</head>
+<body>
+<h1>jQuery Exit Popup Example</h1>
+
+http://www.jqueryscript.net/lightbox/jQuery-Plugin-For-Smart-Exit-Pop-Behaviour-Exit-Popup.html
+
+<!--
+<div class="jquery-script-ads"><script type="text/javascript">
+google_ad_client = "ca-pub-2783044520727903";
+google_ad_slot = "2780937993";
+google_ad_width = 728;
+google_ad_height = 90;
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>-->
+<p>Move your mouse up to the url bar ^</p>
+<div id="exitpopup_bg"></div>
+<div id="exitpopup">
+ 
+ <a class="close" onclick="hidePopup()" href="#">CLOSE</a>
+ 
+  <h1>Wait!!! Before you go...</h1>
+  <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquam interdum enim ut congue. Vivamus erat velit, convallis nec suscipit at, egestas nec nunc. Phasellus in faucibus nunc. Curabitur luctus suscipit faucibus. Phasellus risus risus, bibendum vitae commodo at, gravida in lorem. Nam euismod, turpis non viverra eleifend, leo lorem tempor elit, sit amet hendrerit justo purus at magna. In hac habitasse platea dictumst. Integer sodales pretium libero sed mattis. Aenean suscipit neque ac purus tincidunt iaculis. </p>
+  <a  href="http://www.google.com"><img src="http://lorempixel.com/400/200/sports" width="400"> <br>
+
+  
+   link to other page</a>
+  
+  </div>
+  
+ <!-- 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+<script src="js/jquery-exit-popup.js"></script>
+-->
+<!--
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+-->
+</body>
+</html>

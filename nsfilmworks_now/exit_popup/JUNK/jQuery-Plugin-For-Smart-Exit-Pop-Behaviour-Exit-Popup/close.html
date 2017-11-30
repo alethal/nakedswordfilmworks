@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+
+<script language="javascript">
+	$(document).ready(function(){
+		
+		$('.popup,.overlay').hide();
+
+		$(".profile1").click(function () {
+				$(".popup, .overlay").show(300);
+		});
+
+	});
+
+	 $(document).mouseup(function (e) {
+		 var popup = $(".popup");
+		 if (!$('.popup').is(e.target) && !popup.is(e.target) &&   popup.has(e.target).length === 0) {
+			 hidePopup();
+		 }
+	 });
+	 
+	 function hidePopup()
+	 {
+		$(".popup, .overlay").hide(300);
+	 }
+	 
+	</script> 
+	 
+</head>
+
+<body>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<div class="profile1"> </div>
+		<div class="overlay"></div>
+		<div class="popup"> 
+			 <a class="close" onclick="hidePopup()" href="#">CLOSE</a>
+			 <input type="submit" value="SUBMIT" id="submit" onclick="alert('CHANGES HAS BEEN SAVED')">
+		</div>
+		
+		
+</body>
+</html>

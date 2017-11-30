@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html class="aebn_fullframe">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<meta name="robots" content="noindex" />
+	<link rel="stylesheet" type="text/css" href="dash/resources/css/aebn_unified_player.css?v=Development Build">
+  	<script type="text/javascript" src="flash/swfobject.js?v=Development Build"></script>
+  	<script type="text/javascript" src="msss/Silverlight.js?v=Development Build"></script>
+  	<script type="text/javascript" src="ParsedQueryString.js?v=Development Build"></script>
+  	<script type="text/javascript" src="UnifiedPlayer.js?v=Development Build"></script>
+	<script type="text/javascript" src="dash/dash-player-core.js?v=Development Build"></script>
+	<script type="text/javascript" src="dash/dash_player_ux.js?v=Development Build"></script>
+	<script type="text/javascript" src="dash/dash_player_markup.js?v=Development Build"></script>
+	<script type="text/javascript">
+		//resize container (needed for Flash & Smooth Streaming)
+		// SEE IF NEW DEFAULT CSS ALLEVIATES THE NEED FOR THE CODE BELOW
+		// MAY NEED TO ADD THIS BACK IN IF FLASH AND SMOOTH STREAM BREAK
+		//$(window).resize( function() {
+		//$('body').height($(window).height());
+		//$('#player').height($(window).height());
+		//});
+
+		var onLoad = function() {
+			var pqs = new ParsedQueryString();
+			var unifiedPlayer = new UnifiedPlayer();
+			unifiedPlayer.unifiedPlayerHome = '';
+			var parameters = {
+				movieId:pqs.param('movieId'),
+				embedId: 'windowedPlayer',
+				format: pqs.param('format'),
+				startSeconds: pqs.param('st'),
+				endSeconds: pqs.param('et')
+			};
+			//$('body').height($(window).height());
+			//$('#player').height($(window).height());
+			unifiedPlayer.play(function(parameters){
+				parameters.url = pqs.param('url');
+			},parameters);
+			//$('body').height($(window).height());
+			//$('#player').height($(window).height());
+		}
+	</script>
+</head>
+<body id="windowedPlayer"  onload="onLoad()">
+	<p>Alternative content</p>
+</body>
+</html>

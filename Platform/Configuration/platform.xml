@@ -1,0 +1,157 @@
+﻿<?xml version="1.0"?>
+<settings>
+  <setting name="Site.PageTitleScheme" value="[Site.Name] | [Page.Title]" />
+  
+  <setting name="Site.CacheEnabled" value="true" />
+  <setting name="Site.CacheLifetimeSeconds" value="5400" />
+  <setting name="Site.QuickCacheLifetimeSeconds" value="300" />
+  <setting name="Site.StyleSheetUrl" value="~/css/spectre.css" />
+  <setting name="Site.DefaultScriptWriterID" value="Scripts" />
+  <setting name="Site.DefaultStyleSheetWriterID" value="Styles" />
+  <setting name="Site.DefaultPageTitleWriterID" value="PageTitle" />
+  <setting name="Site.DefaultMetaTagWriterID" value="Meta" />
+  <setting name="Site.DefaultLinkTagWriterID" value="Links" />
+  <setting name="Site.ControlServiceTargetParameter" value="xctrl" />
+  <setting name="Site.ControlServiceCallParameter" value="xsvc" />
+  <setting name="Site.Author" value="NakedSword.com" />
+  <setting name="Site.Rating" value="RTA-5042-1996-1400-1577-RTA" />
+  <setting name="Site.Viewport" value="device-width, initial-scale=1.0" />
+  <setting name="Site.ContentType" value="text/html; charset=utf-8" />
+  <setting name="Site.CharSet" value="UTF-8" />
+  <setting name="Site.ShowDetailedErrorsOnDev" value="true" />
+  <setting name="Site.MerchantIdentifier" value="NS Entertain 18004199287" />
+  <setting name="Site.ContactUs.PhoneNumber" value="U.S. (TOLL FREE) 888.207.4534" />
+  <setting name="Site.ContactUs.PhoneNumber.International" value="INTERNATIONAL 980.505.8342" />
+  <setting name="Site.ContactUs.EmailAddress" value="support@adultpaysitesupport.com" />
+  <setting name="Site.CustomRedirects.FileVirtualPath" value="~/host/configuration/redirects.txt" />
+  <setting name="Site.Diagnostics.NotifyForLongRunningProcesses" value="false" />
+  <setting name="Site.Diagnostics.LongRunningProcessThresholdMilliseconds" value="8000" />
+  <setting name="Site.Previews.MaxViewsForNonMembers" value="12" />
+  <setting name="Site.Previews.ContentStartPercent" value="70%" />
+  <setting name="Site.Previews.DurationSeconds" value="45" />
+  <setting name="Site.BuyNowLinks.Enabled" value="false" />
+  <setting name="Site.CustomPreviews.Enabled" value="true" />
+  <setting name="Site.UseEpisodeSpecificBoxcovers" value="true" />
+
+  <setting name="Site.AppleTouchIcon" value="~/custom_icon.png" />
+  <setting name="Site.ShortcutIcon" value="~/favicon.ico" />
+  <setting name="Site.LogoUrl" value="~/img/logo.png" />
+
+  <setting name="Site.Modules.TransportSecurityValidation.Enabled" value="true" />
+  <setting name="Site.Modules.AffiliateTracking.Enabled" value="true" />
+  <setting name="Site.Modules.MemberStatusBouncer.Enabled" value="true" />
+  <setting name="Site.Modules.MemberStatusBouncer.MemberStatus" value="InactiveMember" />
+  <setting name="Site.Modules.MemberStatusBouncer.RedirectUrl" value="~/rejoin" />
+  <setting name="Site.Modules.MemberStatusBouncer.AllowedUrls" value="~/rejoin, ~/join, ~/signout" />
+
+  <setting name="NATS.ServerUrl" value="https://nats.nakedsword.com" />
+  <setting name="NATS.ResetPasswordUrl" value="/signup/password.php?siteid=[NATS.SiteID]" />
+  <setting name="NATS.SignUpUrl" value="/signup/signup.php" />
+  <setting name="NATS.SiteID" value="1" />
+  <setting name="NATS.AffiliateCode.QuerystringParameter" value="nats" />
+  <setting name="NATS.AffiliateCode.CookieLifetimeDays" value="14" />
+  <setting name="NATS.XSaleSignIn.Enabled" value="false" />
+  <setting name="NATS.XSaleSignIn.SiteID" value="0" />
+  <setting name="NATS.XSaleSignIn.Url" value="" />
+
+  <setting name="IML.EnableOneClick" value="false" />
+  <setting name="IML.CamSiteDomain" value="live.nakedsword.com" />
+  <setting name="IML.CamSiteHomeUrl" value="https://live.nakedsword.com" />
+  <setting name="IML.SendMailOnRegister" value="true" />
+    
+  <setting name="Bundles.Jquery.LibraryUrl" value="//code.jquery.com/jquery-2.1.4.min.js" />
+  <setting name="Bundles.JqueryUI.LibraryUrl" value="//code.jquery.com/ui/1.12.0/jquery-ui.js" />
+  <setting name="Bundles.Foundation.LibraryUrl" value="~/bower_components/foundation-sites/dist/foundation.js" />
+  <setting name="Bundles.Foundation.StyleSheetUrl" value="~/css/app.css" />
+  <setting name="Bundles.Colorbox.LibraryUrl" value="~/js/jquery.colorbox.js" />
+  <setting name="Bundles.Colorbox.OptionsUrl" value="~/js/jquery.colorbox_options.js" />
+  <setting name="Bundles.Colorbox.SwipeUrl" value="~/js/jquery.colorbox_swipe.js" />
+  <setting name="Bundles.TouchSwipe.LibraryUrl" value="~/js/jquery.touchSwipe.min.js" />
+  <setting name="Bundles.Slick.LibraryUrl" value="~/js/slick.js" />
+  <setting name="Bundles.Slick.OptionsUrl" value="~/js/slick_options.js" />
+
+  <setting name="Bundles.UnifiedPlayer.PlayerInstallFolder" value="~/Platform/Bundles/UnifiedPlayer/player" />
+  <setting name="Bundles.UnifiedPlayer.FlashPlayerLibraryUrl" value="~/Platform/Bundles/UnifiedPlayer/player/flash/swfobject.js" />
+  <setting name="Bundles.UnifiedPlayer.PlayerLibraryUrl" value="~/Platform/Bundles/UnifiedPlayer/player/UnifiedPlayer.js" />
+  <setting name="Bundles.UnifiedPlayer.PlayStreamScriptUrl" value="~/Platform/Bundles/UnifiedPlayer/PlayStream.js" />
+  <setting name="Bundles.UnifiedPlayer.FullFramePageUrl" value="~/Platform/Bundles/UnifiedPlayer/player/fullframe.html" />
+  <setting name="Bundles.UnifiedPlayer.ForceHTTP" value="true" />
+
+  <setting name="Cookies.Domain" value="" />
+  <setting name="Cookies.Path" value="/" />
+  
+  <setting name="Security.AuthTicketCookieName" value="ns-id" />
+  <setting name="Security.AuthTicketExpirationDays" value="14" />
+  <setting name="Security.AuthTicketVersion" value="14" />
+
+  <setting name="Mail.ApplicationName" value="Spectre" />
+  <setting name="Mail.Server" value="UTIL1E.NS.EC2" />
+  <setting name="Mail.Port" value="25" />
+  <setting name="Mail.From" value="nakedsword@aebn.com" />
+  <setting name="Mail.Recipients" value="fenderson@cubik.com" />
+
+  <setting name="API.BaseServiceAddress" value="https://services.nakedsword.com" />
+  <setting name="API.AuthenticationToken" value="TotallySecure" />
+
+  <setting name="AEBN.SceneStills.FilenameScheme" value="[SceneStill.MovieID]_[SceneStill.StillNumber].jpg" />
+  <setting name="AEBN.SceneStills.ImageUrlScheme" value="https://pic.aebn.net/dis/t/[SceneStill.MovieID]/[SceneStill.Filename]" />
+
+  <setting name="Metrics.EnableClickTracking" value="true" />
+
+  <setting name="Foundation.Interchange.MinimumImageWidths" value="Small:640,Medium:1024,Large:1200" />
+  <setting name="Foundation.Interchange.MaxImageWidth" value="1200" />
+  
+  <setting name="Controls.Foundation.MainNav.DefaultSignedInContentUrl" value="~/Host/Snippets/Controls/Foundation/MainNav/SignedIn.html" />
+  <setting name="Controls.Foundation.MainNav.DefaultSignedOutContentUrl" value="~/Host/Snippets/Controls/Foundation/MainNav/SignedOut.html" />
+  <setting name="Controls.Foundation.MainNav.MobileSignedInContentUrl" value="~/Host/Snippets/Controls/Foundation/MainNav/Mobile_SignedIn.html" />
+  <setting name="Controls.Foundation.MainNav.MobileSignedOutContentUrl" value="~/Host/Snippets/Controls/Foundation/MainNav/Mobile_SignedOut.html" />
+  
+  <setting name="Controls.Foundation.KeywordSearchForm.AutoSuggestDelayMilliseconds" value="300" />
+  <setting name="Controls.Foundation.KeywordSearchForm.AutoSuggestMinimumCharacterLength" value="3" />
+  <setting name="Controls.Foundation.KeywordSearchForm.FormAutoCompleteScriptUrl" value="~/Platform/Snippets/Controls/Foundation/KeywordSearchForm/FormAutoComplete.js" />
+  <setting name="Controls.Foundation.KeywordSearchForm.FormSubmitOnEnterKeyScriptUrl" value="~/Platform/Snippets/Controls/Foundation/KeywordSearchForm/FormSubmitOnEnterKey.js" />
+  <setting name="Controls.Foundation.KeywordSearchForm.MobileFormSlideDownScriptUrl" value="~/Platform/Snippets/Controls/Foundation/KeywordSearchForm/Mobile_FormSlideDown.js" />
+  <setting name="Controls.Foundation.KeywordSearchForm.UISearchScriptUrl" value="~/js/uisearch.js" />
+  <setting name="Controls.Foundation.KeywordSearchForm.ClassHelperScriptUrl" value="~/js/classie.js" />
+  <setting name="Controls.Foundation.KeywordSearchForm.SearchIconImageUrl" value="~/img/searchicon.png" />
+  <setting name="Controls.Foundation.KeywordSearchForm.PlaceHolderText" value="Search movies, studios, stars and themes" />
+  
+  <setting name="Controls.Foundation.SceneSearchResults.DefaultPageSize" value="16" />
+  <setting name="Controls.Foundation.SceneSearchResults.AllowedSortFields" value="Newest, Trending, Duration, Title" />
+  <setting name="Controls.Foundation.SceneSearchResults.BoxCoverSpacerImageUrl" value="~/img/searchresults/boxcover.gif" />
+  <setting name="Controls.Foundation.SceneSearchResults.SearchResultsOptionsScriptUrl" value="~/js/searchresults_options.js" />
+  <setting name="Controls.Foundation.SceneSearchResults.LazyLoadPagingScriptUrl" value="~/Platform/Snippets/Controls/Foundation/SceneSearchResults/LazyLoadPaging.js" />
+  <setting name="Controls.Foundation.SceneSearchResults.FavoritesToggleServiceUrl" value= "~/scriptservices/scene-favorites/toggle" />
+  <setting name="Controls.Foundation.SceneSearchResults.FavoritesToggleScriptUrl" value="~/Platform/Snippets/Controls/Foundation/SceneSearchResults/Favorites.js" />
+  <setting name="Controls.Foundation.SceneSearchResults.FavoritesNonMemberToggleScriptUrl" value="~/Platform/Snippets/Controls/Foundation/SceneSearchResults/Favorites_NonMember.js" />
+  <setting name="Controls.Foundation.SceneSearchResults.FavoritesNonMemberRedirectUrl" value="~/join" />
+  <setting name="Controls.Foundation.SceneSearchResults.DnsPrefetchDomains" value="https://pic.aebn.net, https://assets.nakedsword.com, https://videos.nakedsword.com" />
+
+  <setting name="Controls.Foundation.MovieSearchResults.DefaultPageSize" value="20" />
+  <setting name="Controls.Foundation.MovieSearchResults.AllowedSortFields" value="Newest, Duration, Title" />
+  <setting name="Controls.Foundation.MovieSearchResults.BoxCoverSpacerImageUrl" value="~/img/searchresults/boxcover.gif" />
+  <setting name="Controls.Foundation.MovieSearchResults.SearchResultsOptionsScriptUrl" value="~/js/searchresults_options.js" />
+  <setting name="Controls.Foundation.MovieSearchResults.DnsPrefetchDomains" value="https://pic.aebn.net, https://assets.nakedsword.com, https://videos.nakedsword.com" />
+    
+  <setting name="Controls.Common.SignOut.AfterSignOutRedirectUrl" value="~/home" />
+
+  <setting name="Controls.Foundation.MovieDetail.SearchResultsOptionsScriptUrl" value="~/js/movie_info_slider.js" />
+  <setting name="Controls.Foundation.MovieDetail.DnsPrefetchDomains" value="https://pic.aebn.net, https://assets.nakedsword.com, https://videos.nakedsword.com" />
+  
+  <setting name="Controls.Foundation.MovieSceneDetailList.SearchResultsOptionsScriptUrl" value="~/js/searchresults_options.js" />
+  <setting name="Controls.Foundation.MovieSceneDetailList.FavoritesToggleServiceUrl" value= "~/scriptservices/scene-favorites/toggle" />
+  <setting name="Controls.Foundation.MovieSceneDetailList.FavoritesToggleScriptUrl" value="~/Platform/Snippets/Controls/Foundation/SceneSearchResults/Favorites.js" />
+  <setting name="Controls.Foundation.MovieSceneDetailList.FavoritesNonMemberToggleScriptUrl" value="~/Platform/Snippets/Controls/Foundation/SceneSearchResults/Favorites_NonMember.js" />
+  <setting name="Controls.Foundation.MovieSceneDetailList.FavoritesNonMemberRedirectUrl" value="~/join" />
+  <setting name="Controls.Foundation.MovieSceneDetailList.DnsPrefetchDomains" value="https://pic.aebn.net, https://assets.nakedsword.com, https://videos.nakedsword.com" />
+
+  <setting name="Controls.Foundation.BannerSpotlightSlider.SpotlightSliderScriptUrl" value="~/js/spotlight.js" />
+  <setting name="Controls.Foundation.BannerSpotlightSlider.SlideItemClassName" value="WelcomeSlide" />
+  <setting name="Controls.Foundation.BannerSpotlightSlider.SlideOverlayContainerClassName" value="HPSliderNSNowPlaying" />
+  <setting name="Controls.Foundation.BannerSpotlightSlider.SlideOverlayItemClassName" value="HPSliderNSNowPlayingImgArrow" />
+  <setting name="Controls.Foundation.BannerSpotlightSlider.SlideSpacerImageUrl" value="https://spotlight.nakedcdn.com/nakedsword/img/hpslider_nowplayingonns_arrowbtn_space2.gif" />
+
+  <setting name="Controls.ThirdParty.Google.PageView.PageViewScriptUrl" value="~/Platform/Snippets/Controls/ThirdParty/Google/PageView/PageView.js" />
+
+</settings>
+

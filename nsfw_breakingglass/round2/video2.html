@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+
+<style>
+
+.header-unit {
+  height: 300px;
+  border: 0px solid #000;
+  border-right:none;
+  border-left: none;
+  position: relative;
+  padding: 20px;
+}
+#video-container {
+	position: absolute;
+}
+#video-container {
+	top:0%;
+	left:0%;
+	height:100%;
+	width:100%;
+	overflow: hidden;
+}
+video {
+	position:absolute;
+	z-index:0;
+}
+video.fillWidth {
+	width: 100%;
+}
+
+	</style>
+
+</head>
+
+<body>
+
+
+<div class="header-unit">
+<div id="video-container">
+<video autoplay loop class="fillWidth">
+<source src="http://thenewcode.com/assets/videos/polina.mp4" type="video/mp4"/>
+<!--<source src="http://Dimofinf.net/your-video-file.ogg" type="video/ogg"/>
+<source src="http://Dimofinf.net/your-video-file.webm" type="video/webm"/>-->
+Your browser does not support the video tag. I suggest you upgrade your browser.
+</video>
+</div><!-- end video-container -->
+</div><!-- end .header-unit -->
+
+
+</body>
+</html>

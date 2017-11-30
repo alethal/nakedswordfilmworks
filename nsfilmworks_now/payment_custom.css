@@ -1,0 +1,342 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+
+.labelCheckbox a{color:#f7e29d; }
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #000;
+    background-image: url(https://spotlight.nakedcdn.com/str8upgaypornmovies/img/bg/background.jpg);
+	text-align: left;
+	font-size: 1em;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: .05rem;
+	color:#fff;
+	font-weight: 100;
+	
+	/*background: rgba(137,147,162,1);
+background: -moz-linear-gradient(left, rgba(137,147,162,1) 0%, rgba(167,177,189,1) 50%, rgba(137,147,162,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(137,147,162,1)), color-stop(50%, rgba(167,177,189,1)), color-stop(100%, rgba(137,147,162,1)));
+background: -webkit-linear-gradient(left, rgba(137,147,162,1) 0%, rgba(167,177,189,1) 50%, rgba(137,147,162,1) 100%);
+background: -o-linear-gradient(left, rgba(137,147,162,1) 0%, rgba(167,177,189,1) 50%, rgba(137,147,162,1) 100%);
+background: -ms-linear-gradient(left, rgba(137,147,162,1) 0%, rgba(167,177,189,1) 50%, rgba(137,147,162,1) 100%);
+background: linear-gradient(to right, rgba(137,147,162,1) 0%, rgba(167,177,189,1) 50%, rgba(137,147,162,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8993a2', endColorstr='#8993a2', GradientType=1 );*/
+}
+
+
+/* HEADER STYLES
+===================================================== */
+/*#masthead {
+	margin: 0px;
+	padding: 0px;
+	line-height: 16px; // was 116
+	height: 16px; 
+}*/
+
+#masthead {
+	margin: 0px;
+	padding: 0px;
+	line-height: 1px;
+	background-image: url('https://spotlight.nakedcdn.com/str8upgaypornmovies/img/logo.jpg');
+	background-size: 562px 67px;
+background-repeat: no-repeat;
+background-position: top center;
+background-attachment: scroll;
+background-color: #000;
+width: 100%; height: 70px;
+	
+}
+
+#masthead h1 {
+	margin: 0px;
+	padding: 20px 0px 0px 20px;
+	text-align: center; 
+	
+}
+#masthead h1 span { display: block; font-size: .4em; }
+/* LAYOUT STYLES
+===================================================== */
+#container {
+	width: 960px; /* 760 orig Changing this value can break layout - modify at own risk */
+	text-align: left;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: transparent !important;
+	border: 0px solid #999999;
+	margin-bottom: 20px;
+}
+#container #contentWrapper {
+	text-align: center;
+	background-color:#000;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px; /* future proofing */
+-khtml-border-radius: 5px; /* for old Konqueror browsers */
+}
+#container #contentWrapper #frameWrapper {
+	text-align: left;
+	float: left;
+	width: 450px; /* 380 Changing this value can break layout - modify at own risk */
+	padding: 0px;
+	margin: 0px 0px 0px;
+}
+#container #contentWrapper iframe {
+	width: 380px; /* REQUIRED - DON'T CHANGE */
+	height: 450px; /* iframe height - adjust based on form height */
+	margin: 0px;
+	padding: 0px;
+	border-style: none;
+}
+
+#divinputs { clear: both; }
+
+#email { background-color:#ccc; border-width: 0px; }
+
+#contentWrapper #sidebar {
+	float: left; /* Change to "float: right;" for sidebar placement to right of iframe/form */
+	width: 218px; /* 295 Changing this value can break layout - modify at own risk */
+	text-align: left;
+	margin: 20px 15px 15px;
+	
+}
+#contentWrapper #sidebarRight {
+	float: right; /* Change to "float: right;" for sidebar placement to right of iframe/form */
+	width: 218px; /* 295 Changing this value can break layout - modify at own risk */
+	text-align: left;
+	margin: 20px 15px 15px;
+
+}
+#container #footer {
+	padding-bottom: 10px;
+	clear: both;
+	padding-top: 20px;
+}
+
+/* SIDEBAR CONTENT STYLES
+===================================================== */
+#contentWrapper #sidebar h2, #contentWrapper #sidebarRight h2 {
+	text-transform: uppercase;
+	margin: 20px 40px 10px 0px;
+	padding: 0px;
+	border-bottom: 1px solid #CCCCCC;
+	color: #666666;
+}
+#contentWrapper #sidebar p, #contentWrapper #sidebarRight p {
+	margin: 0px;
+	padding: 0px;
+}
+#contentWrapper #sidebar ul, #contentWrapper #sidebar ul {
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	width: 220px;
+}
+#contentWrapper #sidebar ul li a, #contentWrapper #sidebarRight ul li a {
+	text-decoration: underline;
+	color: #3E57B3;
+	font-size: 12px;
+	line-height: 18px;
+}
+#contentWrapper #sidebar a, #contentWrapper #sidebarRight a {
+	color: #3E57B3;
+}
+
+/* FOOTER CONTENT STYLES
+===================================================== */
+#container #footer p {
+	width: 550px;
+	text-align: center;
+	padding: 0px;
+	margin: 10px auto;
+}
+
+/* MISCELLANEOUS STYLES
+===================================================== */
+.clear {
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+	height: 0px;
+	width: 0px;
+}
+
+
+/* ADDITIONAL
+===================================================== */
+
+
+
+form p label {
+	display: block;
+	float: left;
+	width: 108px;
+    /* 5/11 shrink padding from 3/5 */
+	padding: 2px;
+	margin: 0px 0px 3px 0px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+input.inputImage {
+	height: 16px;
+width: 227px;
+float: none;
+padding: 0px;
+clear: both;
+margin-top: 5px;
+margin-bottom: 0px;
+margin-left: 75px;
+z-index: 99;
+	background: url(https://spotlight.nakedcdn.com/str8upgaypornmovies/str8upgaypornmovies_now/join-submit-grey.gif)  no-repeat center top;
+}
+input.inputImage:hover {
+	background: url(https://spotlight.nakedcdn.com/str8upgaypornmovies/str8upgaypornmovies_now/join-submit-grey.gif) no-repeat center bottom;
+}
+
+#div_rebill p label { height: 2em; }
+
+#spanPackage {
+    display: block;
+    padding: 0 0 0 0px !important;
+    margin: 0;
+    text-align: left !important;
+    text-indent: 0px;
+	/*font-size: 1.25em !important;*/
+	font-weight: 300;
+}
+
+ #formWrapper input {
+        width: 66%;
+        margin: 0 0px;
+		text-align: left;
+		font-size: 1em;
+		padding: 5px;
+    }
+	
+	
+#cardno { margin: 0 0 20px 0;  }
+
+#cardnoImages {clear: both; margin: 0 0 0 100px !important;}
+#cardnoImages img { margin: 10px 0 0 0;}
+
+form #divcvv2 p label{
+        width: 55px;
+		margin: 0 0 0 -30px; }
+
+	#cvv2 { margin: 0 0 0 0; }
+	
+	#rocketpay_checkbox { float: left; text-align: right; width: 10% !important; padding: 15px 0 0 0; }
+	#rocketpay_remember { margin: 0 0 0 40%; width: 200px; float: left; text-align: left; padding: 10px;}
+	
+	
+	#rocketpay_link p { clear: both; }
+
+form p input.inputCheckbox, form p input.inputRadio, input.inputCheckbox, input.inputRadio {
+	display: inline;
+	height: 14px;
+	width: 14px;
+	background-color: transparent;
+	border-width: 0px;
+	padding: 0px;
+	/* 5/9 from 140. Add float to get checkbox on left */
+	margin: 0px 0px 5px 20px;
+    float: left;
+	position: relative;
+	z-index: 99;
+}
+
+.labelCheckbox { width: 90%; float: left; display: inline; position: relative; background-color:transparent; margin: -15px 0 0 8%;} 
+.descriptor { clear: both; }
+
+select {
+       background: #fff url(rocket_images/join_arrow.png) no-repeat 96% 0;
+   width: 70%;
+   padding: 5px;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   height: 34px;
+   -webkit-appearance: none;  /*Removes default chrome and safari style*/
+     -moz-appearance: none;  /*Removes default style Firefox*/
+   }
+   
+   #divexpire { clear: both; }
+   #expire_month { width: 34%; }
+   #expire_year  { width: 34%; } 
+   
+   
+  
+   
+   .divxsell input.inputRadio, input.inputCheckbox, input.inputRadio { width: 10% !important; float: left; text-align: left;}
+   
+   #tos_rebill:before  { content: '\A'; display: block; white-space: pre;}
+	
+	#tos_rebill:after { content: '\A'; display: block; white-space: pre;}
+/* Mobile 
+============================================
+*/
+
+@media only screen 
+ and (max-width : 480px) {
+	 
+	 h2 {font-size: 1em;}
+	 
+    #container #contentWrapper #frameWrapper, #formWrapper, #logofooter { width: 98%; }
+		
+    #container{ width: 98%; margin: 0px 1px 4px 4px; }
+	
+	#masthead {
+	margin: 0px;
+	padding: 0px;
+	line-height: 1px;
+	background-image: url('https://spotlight.nakedcdn.com/str8upgaypornmovies/img/logo.jpg');
+	background-size: 300px 37px;
+background-repeat: no-repeat;
+background-position: top center;
+background-attachment: scroll;
+background-color: transparent;
+width: 100%; height: 50px;
+	
+}
+
+
+#formWrapper input, #formWrapper select { width: 90%; margin: 0 0px; }
+
+#rocketpay_remember { margin: 0 0 0 20%; width: 200px; float: left; text-align: left; padding: 10px;}
+
+#contentWrapper #sidebar {
+	visibility: hidden;
+	float: left; /* Change to "float: right;" for sidebar placement to right of iframe/form */
+	width: 0px; /* Changing this value can break layout - modify at own risk 295 orign*/
+	text-align: left;
+	margin: 0px;
+	height: 0px;
+	/*font: 12px Verdana, Arial, Helvetica, sans-serif;*/
+}
+#contentWrapper #sidebarRight {
+	visibility: hidden; 
+	float: left; /* Change to "float: right;" for sidebar placement to right of iframe/form */
+	width: 0; /* Changing this value can break layout - modify at own risk 295 to start*/
+	text-align: left;
+	margin: 0;
+	height: 0px;
+	/*font: 12px Verdana, Arial, Helvetica, sans-serif;*/
+}
+
+form #divcvv2 p label{
+        width: 0px;
+		margin: 0 0 0 0px; }
+   
+	
+#cardnoImages {clear: both; margin: 0 0 0 0px !important;}
+	
+#spanexpiremonth:after { content: '\A'; display: block; white-space: pre;}
+
+
+
+
+/* end the media query */
+	
+ }

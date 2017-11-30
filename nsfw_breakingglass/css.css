@@ -1,0 +1,478 @@
+/*
+
+
+
+    Theme Name:     Volume Music & Sound
+
+    Theme URI:      Theme URI: http://matter2m.com
+
+    Description:    Description: Responsive Onepage Portfolio Child Theme based on <a href="http://themeforest.net/user/zedTheme/portfolio?ref=zedTheme">zedTheme</a>
+
+    Author:         zedTheme
+
+    Author URI: http://themeforest.net/user/zedTheme/portfolio?ref=zedTheme
+
+    Template:       oriolus
+
+    Version:        1.0
+
+
+
+
+
+-------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+@import url("../oriolus/style.css");
+
+
+
+/* =Theme customization starts here
+
+-------------------------------------------------------------- */
+
+body {
+
+    background: #e3e3e3;
+font-color:#333333 !important;
+
+}
+
+
+.bg-overlay {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(images/pattern4.png);
+        position: absolute;
+        z-index: 1;
+    }
+/*
+#about .fa { color: #333333 !important; font-color:#ffffff !important; }
+#about .bg-overlay {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(images/pattern4.png);
+        position: absolute;
+        z-index: 1;
+    }
+*/
+
+/*
+#contact h1 { color: #000 !important; }
+#contact .fa { color: #ffffff !important; }
+#contact h4 { color: #ffffff !important; }
+#contact p { color: #ffffff !important; }
+#contact .bg-overlay {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(images/pattern4.png);
+        position: absolute;
+        z-index: 1;
+    }
+*/
+#our-team .fa, h1, h4, p { color: #333333 !important; }
+
+#home h1, #home h2, #home h3, #home h4, #home h5, #home h6 { color:#333333; text-transform: uppercase; font-weight: 200 !important; }
+
+#reel h1, #reel h2, #reel h3, #reel h5, #reel h6{ color:#333333 !important; text-transform: uppercase; font-weight: 200 !important; }
+
+ #reel h4 { color:#efefef !important; text-transform: uppercase; font-weight: 200 !important; }
+
+#filtrable a {
+    font-color: #333333 !important;
+color:#333333 !important;
+    border: 1px solid #333333 !important;
+background-color:transparent;
+   
+}
+
+.portfolio-margin article {
+    padding: 5px;
+}
+
+
+.isotope-item a { color: #efefef !important; }
+
+.portfolio-items img { font-color:#efefef !important; }
+
+.portfolio-items a {
+        display: block;
+        overflow: hidden;
+        background-color: #000;
+font-color:#ff6600 !important;
+color:#ff6600 !important;
+    }
+
+.copyright{ color: #ffffff !important; }
+
+/* Text Elements */
+
+
+
+p {
+
+	text-align: justify;
+
+}
+
+
+
+.titles p {
+
+	text-align: center;
+
+}
+
+/* FORM */
+
+    input[type="text"], 
+    input[type="email"], 
+    input[type="password"],
+    input[type="email"],
+    textarea { 
+        color: black;
+    }
+
+#home {
+	display:block !important;
+}
+
+
+/* Buttons */
+
+
+
+/*.zt-button{
+
+		font-size: 16px;
+
+    padding-bottom: 15px;
+
+    padding-left: 15px;
+
+    padding-right: 15px;
+
+    padding-top: 15px;
+
+ 
+
+    border: 1px solid #fff;
+
+    background: rgba (0,0,0,.5);
+
+    background-color: rgb (0,0,0);
+
+    min-height: 50px;
+
+    max-height: 60px;
+
+    min-width: 80%;
+
+	
+
+}
+
+*/
+
+.zt-button.large {
+
+    font-size: 16px;
+
+    padding-bottom: 15px;
+
+    padding-left: 15px;
+
+    padding-right: 15px;
+
+    padding-top: 15px;
+
+    border: 1px solid #333;
+
+    background-color: rgba(0,0,0,.75) !important;
+
+    min-height: 50px;
+
+    max-height: 60px;
+
+    min-width: 80%;
+
+    text-transform: uppercase;
+
+    text-align: center !important;
+
+}
+
+
+
+.group-button a {
+
+    border-bottom-left-radius: 0;
+
+    border-bottom-right-radius: 0;
+
+    border-top-left-radius: 0;
+
+    border-top-right-radius: 0;
+
+    line-height: 20px;
+
+    margin-bottom: 0 !important;
+
+    margin-left: 0 !important;
+
+    margin-right: 0 !important;
+
+    margin-top: 0 !important;
+
+    padding-bottom: 13px;
+
+    padding-left: 20px;
+
+    padding-right: 20px;
+
+    padding-top: 13px;
+
+    background-color: rgba(0,0,0,.75) !important;
+
+    border: 1px solid #fff;
+
+    text-transform: uppercase;
+
+    font-size: 15px;
+
+}
+
+
+
+/* Container - Titles */
+
+
+
+.container {
+
+    padding-bottom: 30px !important;
+
+    padding-left: 0 !important;
+
+    padding-right: 0;
+
+    padding-top: 40px !important;
+
+    position: relative;
+
+    z-index: 2;
+
+}
+
+
+
+.titles {
+
+    margin-bottom: 40px;
+
+    text-align: center;
+
+    text-transform: uppercase;
+
+}
+
+/* Team Names */
+
+
+
+.zt-team {
+
+    text-align: left;
+
+    padding-bottom: 20px;
+
+    min-height: 500px;
+
+}
+
+
+div.zt-team-content{
+	height:250px;
+	max-height:250px;
+	padding-right:6px;
+	overflow-y:hidden;
+	padding-bottom:10px;
+
+}
+
+div.zt-team-content:hover{
+	overflow-y:scroll;
+	padding-right:0px;
+}
+
+
+
+
+div.zt-team-content::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+div.zt-team-content::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+div.zt-team-content::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+}
+
+
+
+.zt-team-content h4 {
+
+    border-bottom-color: #333333;
+
+    border-bottom-style: solid;
+
+    border-bottom-width: 1px;
+
+    color: #333333 !important;
+
+    /*font-family: lato;*/
+
+    margin-bottom: 5px;
+
+    text-align: center;
+
+}
+
+
+
+.zt-team-content span {
+
+    color: #333333;
+
+    display: block;
+
+    font-style: italic;
+
+    margin-bottom: 5px;
+
+    text-align: center;
+
+}
+
+
+
+.zt-toggle-title p {
+
+    color: #F4F4F4;
+
+    /*font-family: Lato;*/
+
+    font-style: normal;
+
+    font-weight: 400;
+
+    text-align: center;
+
+}
+
+
+
+.zt-toggle-title, .zt-accordion-title {
+
+    background-color: rgba(0,0,0,.75);
+
+    border-bottom-left-radius: 2px;
+
+    border-bottom-right-radius: 2px;
+
+    border-top-left-radius: 2px;
+
+    border-top-right-radius: 2px;
+
+    cursor: pointer;
+
+    display: block;
+
+    font-size: 12px;
+
+    margin-bottom: 6px;
+
+    padding-bottom: 15px;
+
+    padding-left: 15px;
+
+    padding-right: 15px;
+
+    padding-top: 15px;
+
+    position: relative;
+
+    transition-delay: 0s;
+
+    transition-duration: 0.2s;
+
+    transition-property: all;
+
+    transition-timing-function: ease;
+
+    border: 1px solid #fff;
+
+}
+
+
+
+/* Email Box */
+
+
+
+.mc4wp-form {
+
+	background-color: rgba(0,0,0,.75);
+
+	border: 1px solid #fff;
+
+	padding: 20px;
+
+}
+
+
+
+/* Links */
+
+p a, p a:visited {
+
+color: #636363;
+font-weight: 600;
+line-height: inherit;
+
+}
+
+
+
+/* Still image for mobile devices. This detection is imperfect, but will work for most devices */
+
+
+
+@media only screen 
+
+and (min-width : 768px) 
+
+and (max-width : 1024px) {
+
+    #home { background-image: url(http://volumemusic.matter2m.com/wp-content/uploads/2014/03/FrenchTrainHomeImage.jpg) !important; }
+
+}
+

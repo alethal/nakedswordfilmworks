@@ -1,0 +1,245 @@
+
+
+<!-- EXIT POPUP START --> 
+
+
+
+<style type="text/css"> 
+
+
+
+li[data-days="32"] label { 
+
+position: relative; 
+
+} 
+
+
+
+li[data-days="32"] label:before { 
+
+background: url('percent-off-arrow.png'); 
+
+content: '20'; 
+
+color: #FFF; 
+
+display: block; 
+
+font: 900 40px/54px 'Open Sans', sans-serif; 
+
+height: 54px; 
+
+width: 55px; 
+
+margin-top: -27px; 
+
+padding-right: 55px; 
+
+position: absolute; 
+
+top: 50%; right: 100%; 
+
+text-align: right; 
+
+} 
+
+
+
+</style> 
+
+<script type="text/javascript" src="jquery.fancybox.pack-2.1.4.js"></script> 
+
+<script type="text/javascript"> 
+
+$(document).ready(function () { 
+
+
+
+/* EXIT POPUP TRIGGER 
+
+* 
+
+* - Automatically after 5 seconds (unless the user is filling out the form) 
+
+* - Every 5 seconds until the popup opens for a first time 
+
+* - On leaving the page (mouseleave) 
+
+* 
+
+* Once the popup has been opened and closed (ignored), 
+
+* the mouseleave trigger will be reactivated after 15 seconds 
+
+*/ 
+
+
+
+window.mouseleaveTrigger = true; 
+
+var try_interval, 
+
+lapse = 8000, 
+
+lapse_retry = 15000, 
+
+using_offer = false, 
+
+$popup = $('#popupSpecialOffer'); 
+
+var fancybox_defaults = { 
+
+afterClose : function () { 
+
+if ( ! using_offer ) { 
+
+// If offer was not accepted, reset mouseleaveTrigger after a grace period 
+
+setTimeout( function() { 
+
+window.mouseleaveTrigger = true; 
+
+}, lapse_retry ); 
+
+} 
+
+} 
+
+}; 
+
+
+
+
+
+fancybox_options = window.fancybox_options || {}; 
+
+$.extend(fancybox_defaults, fancybox_options, true); 
+
+function popupFunction( force ) { 
+
+var nnn = document.getElementsByClassName("join-input"); 
+
+var force = force || false; 
+
+// Ignore the call if fancybox is already open 
+
+if ( $.fancybox.isOpen ) 
+
+return; 
+
+clearInterval( try_interval ); 
+
+if ( force || ! $('.user-inputs-labels input').is(':focus') ) { 
+
+document.onmousemove = null; 
+
+$.fancybox.open( $popup, fancybox_defaults); 
+
+window.mouseleaveTrigger = false; 
+
+} 
+
+} 
+
+
+
+// Start the original interval 
+
+clearInterval( try_interval ); 
+
+try_interval = setInterval( function() { 
+
+var email = document.getElementById("email").value 
+
+if( email === "Email" ){ 
+
+popupFunction(); 
+
+} 
+
+}, lapse ); 
+
+
+
+setTimeout(function() { 
+
+var pp = 0; 
+
+// Set up the mouseleave trigger 
+
+$(document).on('mouseleave', function() { 
+
+var email = document.getElementById("email").value 
+
+if( (email === "Email" && pp === 0) || (email === "" && pp === 0)){ 
+
+popupFunction(); 
+
+pp++; 
+
+window.setInterval(function(){ 
+
+pp--; 
+
+}, 12000); 
+
+} 
+
+}); 
+
+}, 10000); 
+
+
+
+
+
+
+
+/* EXIT POPUP ACTION 
+
+* 
+
+* If the user accepts the promo, 
+
+* replace the monthly option! 
+
+*/ 
+
+$('#popup-link').click( function() { 
+
+using_offer = true; 
+
+var checked = $('[data-days="30"] input').is(':checked') 
+
+// Switch the monthly pricepoints only 
+
+$('[data-days="32"]').show(); 
+
+$('[data-days="30"]').hide(); 
+
+if ( checked ) { 
+
+$('[data-days="32"] input').click(); 
+
+} 
+
+// Close the popup 
+
+$.fancybox.close(); 
+
+// Cancel the popup 
+
+$(document).off('mouseleave'); 
+
+clearInterval( try_interval ); 
+
+function popupFunction() {}; 
+
+}); 
+
+}); 
+
+</script> 
+
+<div class="popup-offer-wrapper default hide" id="popupSpecialOffer"><a href="javascript:;" class="no-overlay"></a><a href="javascript:;" id="popup-link" class='exitpop-wrapper pop-box'><h3 tr-id="tt-popup-dontgo">Don't Go!</h3><h4 tr-id="tt-popup-special">Special Offer</h4><h2><span tr-id="tt-popup-getoff1" class="getoff1">Get</span><span class="pricepopup"> 20% </span><span tr-id="tt-popup-getoff2" class="getoff2">off</span></h2><span tr-id="tt-popup-btn" class="link">Save Now</span></a></div><!-- EXIT POPUP END --> 

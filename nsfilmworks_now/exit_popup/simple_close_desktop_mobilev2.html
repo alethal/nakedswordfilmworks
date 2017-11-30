@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>jQuery Exit Popup Example</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/normalize.min.css">
+<link rel="stylesheet" href="css/main.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<!-- <link rel="stylesheet" href="css/jquery-exit-popup.css"> -->
+<!--script src="js/jquery-exit-popup.js"></script-->
+<style>
+body {
+	background: #09F;
+	margin: 10px;
+	padding: 10px;
+	color: #FFF;
+}
+
+#exitpopup{
+	text-align: center;
+	width: 670px; 
+	height: 450px;
+	margin: 0px auto; 
+	display: none; 
+	position: fixed; 
+	color: #ffffff; 
+	padding: 20px; 
+	-webkit-border-radius: 4px; 
+	-moz-border-radius: 4px; 
+	border-radius: 4px; 
+	z-index: 999999; 
+	/*background: rgba(0, 0, 0, 0.8);*/
+}
+
+#exitpopup h1{
+	margin-top: 0px;
+	padding-top: 0px;
+}	
+	
+#exitpopup p{
+	text-align: left;
+}
+
+#exitpopup img{
+	width: 400px; 
+	border: 0px; 
+	margin: 0px auto;
+}
+
+#exitpopup_bg {
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #000000;
+	opacity: .8;
+	filter: alpha(opacity=0.8);
+	z-index: 999998;
+	margin: 0px;
+	padding: 0px;
+}
+</style>
+
+<script language="javascript">
+$(document).ready(function(){
+	function showPopup() {
+		$("#exitpopup").css({"left":($(window).width()-$("#exitpopup").outerWidth())*.5, "top":($(window).height()-$("#exitpopup").outerHeight())*.5});
+		$("#exitpopup, #exitpopup_bg").fadeIn();
+	}
+
+	function hidePopup() {
+		$("#exitpopup, #exitpopup_bg").fadeOut(250);
+	}
+
+	$(document).mouseleave(function() {
+		showPopup();
+	});
+
+	$(".close").click(function() {
+		hidePopup();
+	});
+
+	$(window).on("blur focus", function(e) {
+    var prevType = $(this).data("prevType");
+
+    if (prevType != e.type) {   //  reduce double fire issues
+        switch (e.type) {
+            case "blur":
+				showPopup();
+                break;
+        }
+    }
+
+    $(this).data("prevType", e.type);
+	});
+});
+</script> 
+</head>
+
+<body>
+<div id="exitpopup">
+	<a class="close" href="#">CLOSE</a><BR>
+    <A HREF="http://join.nakedsword.com/track/MTAzNDE4LjIyLjEuNTAuNDMuMC4wLjAuMA"><img src="https://spotlight.nakedcdn.com/nakedsword/nakedsword_now/exit_popup/exitpopup.png" border="0" width="100%"></A>
+</div>
+<div id="exitpopup_bg"></div>
+
+<h1>Overlay Popup</h1>
+<p>Move your mouse out of the window</p>
+</body>
+</html>

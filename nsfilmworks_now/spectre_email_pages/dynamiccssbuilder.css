@@ -1,0 +1,262 @@
+{literal}
+
+/* default tour */
+
+fieldset{
+	margin:0;
+	border:0px solid {/literal}#{$css_colors.form_border}{literal};
+}
+input {
+width:250px;
+display:block;
+border: 1px solid #999;
+height: 25px;
+font-family: Arial Black, Arial, Gadget, Helvetica, sans-serif;
+color: #333333;
+font-weight: bold;
+font-size: 14px;
+}
+
+
+legend{
+ margin:.4em 0;
+ padding:0 .5em;
+ color:{/literal}#{$css_colors.form_heading_text}{literal};
+ background:transparent;
+ font-size:1.7em;
+ font-weight:bold;
+}
+#container{
+ 	margin:0 auto;
+ 	padding:0px 0 0 0;
+ 	width:960px;
+ 	text-align:center;
+
+}
+body{
+	padding:0;
+	margin:0px;
+	color:{/literal}#{$css_colors.body_text}{literal};
+	background:{/literal}#{$css_colors.body_background}{literal};
+	font-size: 10px;
+	text-align:center;
+	font-family: Arial, Gadget, Helvetica, sans-serif;
+
+
+background-image: url('https://www.Str8UpGayPornMovies.com/images/bg/bg.jpg');
+
+		background-repeat: no-repeat;
+		background-position: top center;
+	
+
+}
+
+#form{
+	float: left;
+	width: 450px;
+height: 640px;
+}
+
+#join-text{
+	width:450px;
+	float: left;
+margin: 0px 10px 0 30px;
+	color: {/literal}#{$css_colors.form_text_color}{literal};
+	font-size: {/literal}	{$css_colors.form_text_size}px{literal};
+
+	
+}
+
+label .member{
+	float:left;
+	width:25%;
+}
+
+label{
+	width:100%;
+	font-size:16px;
+	font-family: Arial;
+}
+
+div{
+	margin-bottom:.5em;
+	padding:0;
+	display:block;
+}
+
+div fieldset div textarea{
+	width:150px;
+	border-top:0px solid #555;
+	border-left:0px solid #555;
+	border-bottom:0px solid #ccc;
+	border-right:0px solid #ccc;
+	padding:1px;
+	color:#333;
+}
+
+.form_input{
+	padding-top:3px;
+	width: 100%;
+}
+
+.option-input{
+	width:20px;
+	padding-top:0px;
+	float:right;
+}
+
+.option-padding{
+width: 350px;
+text-align: left;
+float: left;
+padding: 0px;
+}
+
+.option{
+	width: 350px;
+}
+
+.opt-title{
+	float: left;
+	text-align:left;
+	padding-top:3px;
+	width:100%;
+font-size: 12px;
+color: #fff;
+}
+
+
+.join_error{
+	color: {/literal}#{$css_colors.form_error_messages}{literal};
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto; 		
+	padding: 0px;
+}
+
+.submit{
+	display:block;
+	width:100px;
+	height:100%;
+	margin-left:auto;
+	margin-right:auto;
+	border: 1px solid black;
+}
+
+.logo{
+{/literal}
+{if $css_colors.header_background_image}
+{literal}
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	width: 100%;
+	height: 200px;
+	background: url('../../../logos/{/literal}{$css_colors.header_background_image}{literal}') no-repeat;
+	background-position: {/literal}{$css_colors.position_of_header_image}{literal};
+	{/literal}
+{/if}
+{literal}
+}
+
+.memberinfo{
+	width:100px;
+	text-align:right;
+	float:left;
+	padding:0 1em;
+}
+.button {
+	margin-left:auto;
+ 	margin-right:auto;
+background-image: url(https://www.Str8UpGayPornMovies.com/images/signup_chooseplanbg_off.png); background-repeat: no-repeat; 
+	padding: 0px 0px 0 32px;
+	height: 55px;
+width: 410px;
+font-weight: 800;
+	font-size: {/literal}{$css_colors.form_button_text_size}px{literal};
+	text-align: left;
+	color: {/literal}#{$css_colors.form_button_text}{literal};
+	cursor: pointer;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	border: 1px;
+}
+
+.pressed-button{
+width: 410px;
+	margin-left:auto;
+ 	margin-right:auto;
+	padding: 0px 0px 0 32px;
+	height: 55px;
+font-family: Arial Black, Arial, Gadget, Helvetica, sans-serif;
+	font-size: {/literal}{$css_colors.form_button_text_size}px{literal};
+	text-align: left;
+	color: {/literal}#{$css_colors.form_button_pressed_text}{literal};
+	background-image: url(https://www.Str8UpGayPornMovies.com/images/signup_chooseplanbg.png); background-repeat: no-repeat; 
+	cursor: pointer;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+line-height: 18px;
+
+}
+.jqifade{
+	position: absolute;
+	background-color: #aaaaaa;
+}
+div.jqi{
+	width: 300px;
+	height: 200px;
+	font-family: Arial;
+	position: absolute;
+	background-color: #ffffff;
+	font-size: 16px;
+	text-align: center;
+	border: solid 0px #eeeeee;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	padding: 7px;
+}
+div.jqi .jqicontainer{
+	font-weight: bold;
+}
+
+div.jqi .jqimessage{
+	padding: 10px;
+	line-height: 20px;
+	color: #444444;
+}
+
+.jqiclose{
+	visibility:hidden;
+}
+
+.noscript{
+	width:20px;
+	border-top:0px solid #555;
+	border-left:0px solid #555;
+	border-bottom:0px solid #ccc;
+	border-right:0px solid #ccc;
+	padding:0px;
+}
+div .join{
+	width:100%;
+	margin-left:auto;
+ 	margin-right:auto;
+ 	text-align: center;
+ 	padding-top: 0px;
+}
+.join .button{
+	height: 95px;
+width: 904px;
+	padding: 0px;
+margin: 0px;
+	font-weight: bold;
+	color: {/literal}#{$css_colors.form_join_button_text}{literal};
+	background-image: url(https://www.Str8UpGayPornMovies.com/checkout_rev/nats_images/startwatching_btn.png); background-repeat: no-repeat; background-color: transparent;
+	font-size: {/literal}{$css_colors.form_join_button_text_size}px{literal};
+}
+
+
+
+ {/literal}

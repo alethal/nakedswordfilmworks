@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <!-- LEGACY ROUTES -->
+  <route name="Legacy.Originals" url="originals/{studioSlug}/videos/{videoSlug}/{categorySlug}/{sequence}" virtualPath="~/content/legacy/video.aspx">
+    <defaults>
+      <routeValue name="categorySlug" value="feature" />
+      <routeValue name="sequence" value="1" />
+    </defaults>
+  </route>
+  <route name="Legacy.Video" url="studios/{studioSlug}/videos/{videoSlug}/{categorySlug}/{sequence}" virtualPath="~/content/legacy/originals.aspx">
+    <defaults>
+      <routeValue name="categorySlug" value="feature" />
+      <routeValue name="sequence" value="1" />
+    </defaults>
+  </route>
+  <route name="Legacy.Star" url="stars/{starSlug}" virtualPath="~/content/legacy/star.aspx" />
+  <route name="Legacy.Studio" url="studios/{studioSlug}" virtualPath="~/content/legacy/studio.aspx" />
+  <route name="Legacy.Theme" url="themes/{categorySlug}-gay-porn-movies" virtualPath="~/content/legacy/theme.aspx" />
+
+  <!-- "Not-Found" Routes -->
+  <route name="StudioNotFound" url="studio-not-found" virtualPath="~/content/notfound_folder/studio_notfound.aspx"  />
+  <route name="StarNotFound" url="star-not-found" virtualPath="~/content/notfound_folder/star_notfound.aspx"  />
+  <route name="CategoryNotFound" url="theme-not-found" virtualPath="~/content/notfound_folder/theme_notfound.aspx"  />
+  <route name="MovieNotFound" url="movie-not-found" virtualPath="~/content/notfound_folder/movie_notfound.aspx"  />
+  <route name="SearchNotFound" url="search-not-found" virtualPath="~/content/notfound_folder/search_notfound.aspx"  />
+
+  <!-- Standard Routes -->
+  <route name="Movies.Index.Selected" url="movies/index/{index}" virtualPath="~/content/movies-index.aspx" />
+  <route name="Movies.Index" url="movies/index" virtualPath="~/movies/movies-index.aspx" />
+  <route name="Movies.DetailWithScene" url="movies/{movieID}/{movieSlug}/scene/{sceneNumber}" virtualPath="~/content/movie.aspx" />
+  <route name="Movies.DetailByName" url="movies/{movieID}/{movieSlug}" virtualPath="~/content/movie.aspx" />
+  <route name="Movies.DetailByID" url="movies/{movieID}" virtualPath="~/content/movie.aspx" />
+    
+  <route name="Scenes.SearchResults" url="scenes/for/{type}/{term}" virtualPath="~/content/scenes-search.aspx" />
+  
+  <route name="Studios.DetailByName" url="studios/{studioID}/{studioSlug}" virtualPath="~/content/studio.aspx" />
+  <route name="Studios.Home" url="studios" virtualPath="~/content/studios.aspx" />
+  
+  <route name="Stars.Index.Selected" url="stars/index/{index}" virtualPath="~/content/stars-index.aspx" />
+  <route name="Stars.Index" url="stars/index" virtualPath="~/content/stars-index.aspx" />
+  <route name="Stars.DetailByName" url="stars/{starID}/{starSlug}" virtualPath="~/content/star.aspx" />
+  <route name="Stars.Home" url="stars" virtualPath="~/content/stars.aspx" />
+  
+  <route name="Categories.DetailByName" url="theme/{categorySlug}" virtualPath="~/content/theme.aspx" />
+  <route name="Categories.Home" url="themes" virtualPath="~/content/themes.aspx" />
+
+  <route name="Home.Tour" url="" virtualPath="~/content/welcome.aspx" />
+  <route name="Home.Members" url="members" virtualPath="~/content/welcome-member.aspx" />
+
+  <route name="Site.Join" url="join" virtualPath="~/content/join.aspx" />
+  <route name="Site.Rejoin" url="members" virtualPath="~/content/rejoin.aspx" />
+  <route name="Site.Exit" url="members" virtualPath="~/content/exit.aspx" />
+  
+  <route name="Error.PageNotFound" url="404" virtualPath="~/content/404.aspx" />
+  <route name="Error.Unhandled" url="error" virtualPath="~/content/error.aspx" />
+  
+  <route name="My.Account" url="my/account" virtualPath="~/content/account/my-account.aspx" />
+  <route name="My.Favorites" url="my/favorites" virtualPath="~/content/account/my-favorites.aspx" />
+  <route name="My.ViewingHistory" url="my/history" virtualPath="~/content/account/my-viewing-history.aspx" />
+  
+  <route name="Auth.SignIn" url="signin" virtualPath="~/content/signin.aspx" />
+  <route name="Auth.SignOut" url="signout" virtualPath="~/content/signout.aspx" />
+  
+  <route name="ScriptServices.ToggleSceneFavorite" url="scriptservices/scene-favorites/toggle" virtualPath="~/content/scriptservices/favorites.aspx" />
+  <route name="ScriptServices.AutoSuggest" url="scriptservices/search/suggest" virtualPath="~/content/scriptservices/search.aspx" />
+  <route name="ScriptServices.Playback" url="scriptservices/getstream/{media}/{id}/{format}" virtualPath="~/content/scriptservices/playback.aspx" />
+
+  <route name="Admin.ControlPanel" url="admin" virtualPath="~/content/admin/control-panel.aspx" />
+
+  <route name="IML.SendToIML" url="sendToIML" virtualPath="~/content/sendToIML.aspx" />
+  
+  
+  
+</root>
